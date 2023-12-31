@@ -1,0 +1,677 @@
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Machine Demonstrator",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "411af9fda883c043",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "200b101ab42b8098",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2ca61c58298a7336",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 540,
+        "y": 180,
+        "wires": [
+            [
+                "ad3242748de0fcd7"
+            ]
+        ]
+    },
+    {
+        "id": "fbe47bad79d06e95",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 540,
+        "y": 300,
+        "wires": [
+            [
+                "ad3242748de0fcd7"
+            ]
+        ]
+    },
+    {
+        "id": "4624b68b4d3842e1",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 540,
+        "y": 380,
+        "wires": [
+            [
+                "ad3242748de0fcd7"
+            ]
+        ]
+    },
+    {
+        "id": "fb3e520f5cd2c8b4",
+        "type": "ui_tab",
+        "name": "Machine Demonstrator",
+        "icon": "fa-industry",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "98bd752599ce3ee8",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Continental",
+                "default": "#4B7930",
+                "baseColor": "#ffa500",
+                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#ffa500",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#ffa500",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#f6f5f4",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#c0bfbc",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#ffc04d",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#ffa500",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Arial,Arial,Helvetica,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Machine Demonstrator",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "icon",
+            "allowTempTheme": "true",
+            "dateFormat": "DD.MM.YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "e4a7ee10712fa77b",
+        "type": "ui_group",
+        "name": "Machine Power Controller",
+        "tab": "fb3e520f5cd2c8b4",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6eae8fe238eba172",
+        "type": "ui_group",
+        "name": "Machine State Controller",
+        "tab": "fb3e520f5cd2c8b4",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "33fe6bd9f39b0e03",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "fb3e520f5cd2c8b4",
+        "order": 3,
+        "disp": true,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3f3f81464416a8bf",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6eae8fe238eba172",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "51a71e47a018cb1f",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6eae8fe238eba172",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "76fbca44514208e7",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6eae8fe238eba172",
+        "order": 7,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "e1fa14771c84f24e",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6eae8fe238eba172",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "e270ecaee8678f48",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "e4a7ee10712fa77b",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "passthru": true,
+        "label": "Power On",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-power-off",
+        "payload": "set:power_on",
+        "payloadType": "str",
+        "topic": "set:power_on",
+        "topicType": "str",
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "61942696e2e71f6f",
+                "2ca61c58298a7336"
+            ]
+        ]
+    },
+    {
+        "id": "ad3242748de0fcd7",
+        "type": "finite-state-machine",
+        "z": "f6f2187d.f17ca8",
+        "name": "FSM for Machine Status, State, Mode",
+        "fsmDefinition": "{\"state\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powered off.\"}},\"transitions\":{\"OFF\":{\"set:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Machine power turned on.\"}}},\"ON\":{\"set:power_off\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powering off.\"}},\"set-auto:machine_idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}},\"IDLE\":{\"set:machine_start_automatic\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Machine is running in automatic mode.\"}},\"set:machine_start_manual\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Machine is running in manual mode.\"}},\"set-auto:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Returning to ON state.\"}}},\"AUTOMATIC_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from automatic mode.\"}},\"set:machine_start_manual\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Switching to manual running mode.\"}}},\"MANUAL_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from manual mode.\"}},\"set:machine_start_automatic\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Switching to automatic running mode.\"}}},\"STOPPING\":{\"set-auto:machine_idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}}}}",
+        "sendInitialState": true,
+        "sendStateWithoutChange": true,
+        "showTransitionErrors": true,
+        "x": 750,
+        "y": 260,
+        "wires": [
+            [
+                "96cd45cf61c65e25",
+                "0d676533fd31d3da"
+            ]
+        ]
+    },
+    {
+        "id": "dc83f75917e836f4",
+        "type": "ui_toast",
+        "z": "f6f2187d.f17ca8",
+        "position": "bottom right",
+        "displayTime": "2",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1240,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "0ee6a21e180916c4",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "e4a7ee10712fa77b",
+        "order": 2,
+        "width": 5,
+        "height": 2,
+        "passthru": false,
+        "label": "Power Off",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-power-off",
+        "payload": "set:power_off",
+        "payloadType": "str",
+        "topic": "set:power_off",
+        "topicType": "str",
+        "x": 160,
+        "y": 140,
+        "wires": [
+            [
+                "2ca61c58298a7336"
+            ]
+        ]
+    },
+    {
+        "id": "96cd45cf61c65e25",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "payload.status",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.data.message",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 200,
+        "wires": [
+            [
+                "dc83f75917e836f4",
+                "f224f81f4693dfc8"
+            ]
+        ]
+    },
+    {
+        "id": "0d676533fd31d3da",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1020,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "f224f81f4693dfc8",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1280,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "61942696e2e71f6f",
+        "type": "delay",
+        "z": "f6f2187d.f17ca8",
+        "name": "delay 3s",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 160,
+        "y": 260,
+        "wires": [
+            [
+                "264f57f7176764e5"
+            ]
+        ]
+    },
+    {
+        "id": "264f57f7176764e5",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "(Auto) Idle Mode",
+        "group": "6eae8fe238eba172",
+        "order": 1,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "label": "(Auto) Idle Mode",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "gray",
+        "className": "",
+        "icon": "fa-repeat",
+        "payload": "set-auto:machine_idle",
+        "payloadType": "str",
+        "topic": "set-auto:machine_idle",
+        "topicType": "str",
+        "x": 320,
+        "y": 260,
+        "wires": [
+            [
+                "ad3242748de0fcd7"
+            ]
+        ]
+    },
+    {
+        "id": "c16c04657ab9fcd6",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "6eae8fe238eba172",
+        "order": 2,
+        "width": 5,
+        "height": 2,
+        "passthru": true,
+        "label": "Automatic Mode",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-play",
+        "payload": "set:machine_start_automatic",
+        "payloadType": "str",
+        "topic": "set:machine_start_automatic",
+        "topicType": "str",
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "fbe47bad79d06e95"
+            ]
+        ]
+    },
+    {
+        "id": "b2efbab12e98f95e",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "6eae8fe238eba172",
+        "order": 3,
+        "width": 5,
+        "height": 2,
+        "passthru": true,
+        "label": "Manual Mode",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "orange",
+        "className": "",
+        "icon": "fa-user",
+        "payload": "set:machine_start_manual",
+        "payloadType": "str",
+        "topic": "set:machine_start_manual",
+        "topicType": "str",
+        "x": 180,
+        "y": 340,
+        "wires": [
+            [
+                "fbe47bad79d06e95"
+            ]
+        ]
+    },
+    {
+        "id": "9c827a7a26c435ef",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "6eae8fe238eba172",
+        "order": 5,
+        "width": 4,
+        "height": 2,
+        "passthru": true,
+        "label": "Stop",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "darkred",
+        "className": "",
+        "icon": "fa-stop-circle-o",
+        "payload": "set:machine_stop",
+        "payloadType": "str",
+        "topic": "set:machine_stop",
+        "topicType": "str",
+        "x": 150,
+        "y": 380,
+        "wires": [
+            [
+                "4624b68b4d3842e1"
+            ]
+        ]
+    },
+    {
+        "id": "19a11ec57b69f8cd",
+        "type": "http request",
+        "z": "411af9fda883c043",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://172.17.0.1:3000/event_type",
+        "tls": "",
+        "persist": true,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 370,
+        "y": 120,
+        "wires": [
+            [
+                "4291ea35184b81f3"
+            ]
+        ]
+    },
+    {
+        "id": "4291ea35184b81f3",
+        "type": "debug",
+        "z": "411af9fda883c043",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b7fc153d18865d9f",
+        "type": "inject",
+        "z": "411af9fda883c043",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 120,
+        "wires": [
+            [
+                "19a11ec57b69f8cd"
+            ]
+        ]
+    },
+    {
+        "id": "267911eacfa94239",
+        "type": "finite-state-machine",
+        "z": "200b101ab42b8098",
+        "name": "",
+        "fsmDefinition": "{\"state\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powered off.\"}},\"transitions\":{\"OFF\":{\"set:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Machine power turned on.\"}}},\"ON\":{\"set:power_off\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powering off.\"}},\"set-auto:idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}},\"IDLE\":{\"set:machine_start_automatic\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Machine is running in automatic mode.\"}},\"set:machine_start_manual\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Machine is running in manual mode.\"}},\"set-auto:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Returning to ON state.\"}}},\"AUTOMATIC_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from automatic mode.\"}},\"set:machine_manual_mode\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Switching to manual running mode.\"}}},\"MANUAL_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from manual mode.\"}},\"set:machine_automatic_mode\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Switching to automatic running mode.\"}}},\"STOPPING\":{\"set-auto:machine_idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}}}}",
+        "sendInitialState": true,
+        "sendStateWithoutChange": true,
+        "showTransitionErrors": true,
+        "x": 710,
+        "y": 140,
+        "wires": [
+            [
+                "d28e9ae86461c938"
+            ]
+        ]
+    },
+    {
+        "id": "d28e9ae86461c938",
+        "type": "debug",
+        "z": "200b101ab42b8098",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e55d2b68bad7fed6",
+        "type": "inject",
+        "z": "200b101ab42b8098",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "power_on",
+        "x": 160,
+        "y": 140,
+        "wires": [
+            [
+                "267911eacfa94239"
+            ]
+        ]
+    },
+    {
+        "id": "166e30c3530e545d",
+        "type": "comment",
+        "z": "200b101ab42b8098",
+        "name": "sending topic \"toggleState\" toggles between the two states",
+        "info": "",
+        "x": 290,
+        "y": 80,
+        "wires": []
+    }
+]
