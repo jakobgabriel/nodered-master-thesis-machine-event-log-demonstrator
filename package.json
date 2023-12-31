@@ -2,7 +2,10 @@
     "name": "nodered-master-thesis-machine-event-log-demonstrator",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-finite-statemachine": "2.1.3",
+        "node-red-dashboard": "3.6.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
