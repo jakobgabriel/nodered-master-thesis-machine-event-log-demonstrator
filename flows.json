@@ -23,14 +23,60 @@
         "env": []
     },
     {
+        "id": "66a37e3f23e2f099",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "User Interface Elements",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e270ecaee8678f48",
+            "0ee6a21e180916c4",
+            "61942696e2e71f6f",
+            "264f57f7176764e5",
+            "c16c04657ab9fcd6",
+            "b2efbab12e98f95e",
+            "9c827a7a26c435ef",
+            "00423c3c314f9012",
+            "218fef76a23032db",
+            "2ca61c58298a7336",
+            "fbe47bad79d06e95",
+            "4624b68b4d3842e1",
+            "6b6b8072d51ffdc1"
+        ],
+        "x": 34,
+        "y": 239,
+        "w": 472,
+        "h": 382
+    },
+    {
+        "id": "9ab2bfc7d86032bd",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "Finite State Machine",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ad3242748de0fcd7",
+            "6ffbb456530cadab"
+        ],
+        "x": 554,
+        "y": 379,
+        "w": 352,
+        "h": 122
+    },
+    {
         "id": "2ca61c58298a7336",
         "type": "junction",
         "z": "f6f2187d.f17ca8",
-        "x": 540,
-        "y": 180,
+        "g": "66a37e3f23e2f099",
+        "x": 420,
+        "y": 340,
         "wires": [
             [
-                "ad3242748de0fcd7"
+                "6b6b8072d51ffdc1"
             ]
         ]
     },
@@ -38,11 +84,12 @@
         "id": "fbe47bad79d06e95",
         "type": "junction",
         "z": "f6f2187d.f17ca8",
-        "x": 540,
-        "y": 300,
+        "g": "66a37e3f23e2f099",
+        "x": 420,
+        "y": 540,
         "wires": [
             [
-                "ad3242748de0fcd7"
+                "6b6b8072d51ffdc1"
             ]
         ]
     },
@@ -50,8 +97,22 @@
         "id": "4624b68b4d3842e1",
         "type": "junction",
         "z": "f6f2187d.f17ca8",
-        "x": 540,
-        "y": 380,
+        "g": "66a37e3f23e2f099",
+        "x": 420,
+        "y": 580,
+        "wires": [
+            [
+                "6b6b8072d51ffdc1"
+            ]
+        ]
+    },
+    {
+        "id": "6b6b8072d51ffdc1",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "g": "66a37e3f23e2f099",
+        "x": 480,
+        "y": 460,
         "wires": [
             [
                 "ad3242748de0fcd7"
@@ -238,9 +299,41 @@
         "height": 1
     },
     {
+        "id": "1fccb85c07964bbc",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "172.17.0.1",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
         "id": "e270ecaee8678f48",
         "type": "ui_button",
         "z": "f6f2187d.f17ca8",
+        "g": "66a37e3f23e2f099",
         "name": "",
         "group": "e4a7ee10712fa77b",
         "order": 1,
@@ -257,8 +350,8 @@
         "payloadType": "str",
         "topic": "set:power_on",
         "topicType": "str",
-        "x": 160,
-        "y": 180,
+        "x": 120,
+        "y": 360,
         "wires": [
             [
                 "61942696e2e71f6f",
@@ -270,13 +363,14 @@
         "id": "ad3242748de0fcd7",
         "type": "finite-state-machine",
         "z": "f6f2187d.f17ca8",
+        "g": "9ab2bfc7d86032bd",
         "name": "FSM for Machine Status, State, Mode",
         "fsmDefinition": "{\"state\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powered off.\"}},\"transitions\":{\"OFF\":{\"set:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Machine power turned on.\"}}},\"ON\":{\"set:power_off\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powering off.\"}},\"set-auto:machine_idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}},\"IDLE\":{\"set:machine_start_automatic\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Machine is running in automatic mode.\"}},\"set:machine_start_manual\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Machine is running in manual mode.\"}},\"set-auto:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Returning to ON state.\"}}},\"AUTOMATIC_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from automatic mode.\"}},\"set:machine_start_manual\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Switching to manual running mode.\"}}},\"MANUAL_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from manual mode.\"}},\"set:machine_start_automatic\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Switching to automatic running mode.\"}}},\"STOPPING\":{\"set-auto:machine_idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}}}}",
         "sendInitialState": true,
         "sendStateWithoutChange": true,
         "showTransitionErrors": true,
-        "x": 750,
-        "y": 260,
+        "x": 730,
+        "y": 460,
         "wires": [
             [
                 "96cd45cf61c65e25",
@@ -299,14 +393,15 @@
         "className": "",
         "topic": "",
         "name": "",
-        "x": 1240,
-        "y": 200,
+        "x": 1400,
+        "y": 340,
         "wires": []
     },
     {
         "id": "0ee6a21e180916c4",
         "type": "ui_button",
         "z": "f6f2187d.f17ca8",
+        "g": "66a37e3f23e2f099",
         "name": "",
         "group": "e4a7ee10712fa77b",
         "order": 2,
@@ -323,8 +418,8 @@
         "payloadType": "str",
         "topic": "set:power_off",
         "topicType": "str",
-        "x": 160,
-        "y": 140,
+        "x": 120,
+        "y": 320,
         "wires": [
             [
                 "2ca61c58298a7336"
@@ -357,8 +452,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1030,
-        "y": 200,
+        "x": 1110,
+        "y": 340,
         "wires": [
             [
                 "dc83f75917e836f4",
@@ -379,8 +474,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1020,
-        "y": 460,
+        "x": 1160,
+        "y": 720,
         "wires": []
     },
     {
@@ -396,14 +491,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1280,
-        "y": 280,
+        "x": 1360,
+        "y": 420,
         "wires": []
     },
     {
         "id": "61942696e2e71f6f",
         "type": "delay",
         "z": "f6f2187d.f17ca8",
+        "g": "66a37e3f23e2f099",
         "name": "delay 3s",
         "pauseType": "delay",
         "timeout": "3",
@@ -417,8 +513,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 160,
-        "y": 260,
+        "x": 120,
+        "y": 460,
         "wires": [
             [
                 "264f57f7176764e5"
@@ -429,6 +525,7 @@
         "id": "264f57f7176764e5",
         "type": "ui_button",
         "z": "f6f2187d.f17ca8",
+        "g": "66a37e3f23e2f099",
         "name": "(Auto) Idle Mode",
         "group": "6eae8fe238eba172",
         "order": 1,
@@ -445,11 +542,11 @@
         "payloadType": "str",
         "topic": "set-auto:machine_idle",
         "topicType": "str",
-        "x": 320,
-        "y": 260,
+        "x": 280,
+        "y": 460,
         "wires": [
             [
-                "ad3242748de0fcd7"
+                "6b6b8072d51ffdc1"
             ]
         ]
     },
@@ -457,6 +554,7 @@
         "id": "c16c04657ab9fcd6",
         "type": "ui_button",
         "z": "f6f2187d.f17ca8",
+        "g": "66a37e3f23e2f099",
         "name": "",
         "group": "6eae8fe238eba172",
         "order": 2,
@@ -473,8 +571,8 @@
         "payloadType": "str",
         "topic": "set:machine_start_automatic",
         "topicType": "str",
-        "x": 180,
-        "y": 300,
+        "x": 140,
+        "y": 500,
         "wires": [
             [
                 "fbe47bad79d06e95"
@@ -485,6 +583,7 @@
         "id": "b2efbab12e98f95e",
         "type": "ui_button",
         "z": "f6f2187d.f17ca8",
+        "g": "66a37e3f23e2f099",
         "name": "",
         "group": "6eae8fe238eba172",
         "order": 3,
@@ -501,8 +600,8 @@
         "payloadType": "str",
         "topic": "set:machine_start_manual",
         "topicType": "str",
-        "x": 180,
-        "y": 340,
+        "x": 140,
+        "y": 540,
         "wires": [
             [
                 "fbe47bad79d06e95"
@@ -513,6 +612,7 @@
         "id": "9c827a7a26c435ef",
         "type": "ui_button",
         "z": "f6f2187d.f17ca8",
+        "g": "66a37e3f23e2f099",
         "name": "",
         "group": "6eae8fe238eba172",
         "order": 5,
@@ -529,8 +629,8 @@
         "payloadType": "str",
         "topic": "set:machine_stop",
         "topicType": "str",
-        "x": 150,
-        "y": 380,
+        "x": 110,
+        "y": 580,
         "wires": [
             [
                 "4624b68b4d3842e1"
@@ -538,12 +638,116 @@
         ]
     },
     {
+        "id": "00423c3c314f9012",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "g": "66a37e3f23e2f099",
+        "name": "Machine State Controller",
+        "info": "",
+        "x": 170,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "218fef76a23032db",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "g": "66a37e3f23e2f099",
+        "name": "Machine Power Controller",
+        "info": "",
+        "x": 170,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "6ffbb456530cadab",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "g": "9ab2bfc7d86032bd",
+        "name": "Finite State Machine",
+        "info": "",
+        "x": 670,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "78c581a3281eb3f6",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "06a6f78bf1efe3f6",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "b6a4bda79aefc9dc",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "INITIALIZATION FLOW",
+        "info": "",
+        "x": 540,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "40815df7aca4b6e9",
+        "type": "mqtt out",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "topic": "json/plc/demo-machine/",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1fccb85c07964bbc",
+        "x": 1210,
+        "y": 880,
+        "wires": []
+    },
+    {
         "id": "19a11ec57b69f8cd",
         "type": "http request",
         "z": "411af9fda883c043",
         "name": "",
         "method": "GET",
-        "ret": "txt",
+        "ret": "obj",
         "paytoqs": "ignore",
         "url": "http://172.17.0.1:3000/event_type",
         "tls": "",
