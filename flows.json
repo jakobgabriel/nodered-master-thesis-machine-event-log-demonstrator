@@ -7,6 +7,13 @@
         "info": ""
     },
     {
+        "id": "a6c83e676ba242bb",
+        "type": "tab",
+        "label": "Korbach",
+        "disabled": true,
+        "info": ""
+    },
+    {
         "id": "411af9fda883c043",
         "type": "tab",
         "label": "Flow 1",
@@ -18,104 +25,174 @@
         "id": "200b101ab42b8098",
         "type": "tab",
         "label": "Flow 2",
-        "disabled": false,
+        "disabled": true,
         "info": "",
         "env": []
     },
     {
-        "id": "66a37e3f23e2f099",
+        "id": "a6aea6158ffe49a3",
+        "type": "tab",
+        "label": "JAKOB",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e2cec32a23a40efa",
         "type": "group",
-        "z": "f6f2187d.f17ca8",
+        "z": "a6aea6158ffe49a3",
+        "g": "20d0d9c5018e77aa",
         "name": "User Interface Elements",
         "style": {
             "label": true
         },
         "nodes": [
-            "e270ecaee8678f48",
-            "0ee6a21e180916c4",
-            "61942696e2e71f6f",
-            "264f57f7176764e5",
-            "c16c04657ab9fcd6",
-            "b2efbab12e98f95e",
-            "9c827a7a26c435ef",
-            "00423c3c314f9012",
-            "218fef76a23032db",
-            "2ca61c58298a7336",
-            "fbe47bad79d06e95",
-            "4624b68b4d3842e1",
-            "6b6b8072d51ffdc1"
+            "a0aeec387b48e304",
+            "f0ba9d2733685468",
+            "9d387ca3dcf2dc11",
+            "a8ae0660adb44684",
+            "123ddc7cea4990a6",
+            "c50227f29744978d",
+            "956ea28871f6b446",
+            "1fc5d7aa7f9ecfd5",
+            "3deb0fb49531cae3"
         ],
-        "x": 34,
-        "y": 239,
-        "w": 472,
+        "x": 64,
+        "y": 279,
+        "w": 352,
         "h": 382
     },
     {
-        "id": "9ab2bfc7d86032bd",
+        "id": "555c34874e8b07a9",
         "type": "group",
-        "z": "f6f2187d.f17ca8",
+        "z": "a6aea6158ffe49a3",
+        "g": "20d0d9c5018e77aa",
         "name": "Finite State Machine",
         "style": {
             "label": true
         },
         "nodes": [
-            "ad3242748de0fcd7",
-            "6ffbb456530cadab"
+            "6ca3cc9284d533bd",
+            "259e145eab456ca3",
+            "6ca3cc9284d533bd"
         ],
-        "x": 554,
-        "y": 379,
+        "x": 584,
+        "y": 419,
         "w": 352,
         "h": 122
     },
     {
-        "id": "2ca61c58298a7336",
-        "type": "junction",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
-        "x": 420,
-        "y": 340,
-        "wires": [
-            [
-                "6b6b8072d51ffdc1"
-            ]
-        ]
+        "id": "20d0d9c5018e77aa",
+        "type": "group",
+        "z": "a6aea6158ffe49a3",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7f7b2b1dfc26c340",
+            "43d28e8d923c2fcb",
+            "e2cec32a23a40efa",
+            "555c34874e8b07a9"
+        ],
+        "x": 38,
+        "y": 253,
+        "w": 1318,
+        "h": 434
     },
     {
-        "id": "fbe47bad79d06e95",
-        "type": "junction",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
-        "x": 420,
-        "y": 540,
-        "wires": [
-            [
-                "6b6b8072d51ffdc1"
-            ]
-        ]
+        "id": "1f6f9070f99ba76f",
+        "type": "group",
+        "z": "200b101ab42b8098",
+        "name": "User Interface Elements",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fa192d97da41a620",
+            "2f291d2b91e38d7a",
+            "1ce3a1b0e9912cc8",
+            "264818f04fd36b05",
+            "81614558e443619a",
+            "8016eb539dcc9544",
+            "1ad93b9097609d38"
+        ],
+        "x": 94,
+        "y": 599,
+        "w": 472,
+        "h": 367
     },
     {
-        "id": "4624b68b4d3842e1",
-        "type": "junction",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
-        "x": 420,
-        "y": 580,
-        "wires": [
-            [
-                "6b6b8072d51ffdc1"
-            ]
-        ]
+        "id": "eaa03a2269154b92",
+        "type": "group",
+        "z": "200b101ab42b8098",
+        "name": "Finite State Machine",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d4b35fc0e09366b2",
+            "7543dd7c150360d5"
+        ],
+        "x": 614,
+        "y": 739,
+        "w": 352,
+        "h": 122
     },
     {
-        "id": "6b6b8072d51ffdc1",
+        "id": "264818f04fd36b05",
         "type": "junction",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
+        "z": "200b101ab42b8098",
+        "g": "1f6f9070f99ba76f",
         "x": 480,
-        "y": 460,
+        "y": 700,
         "wires": [
             [
-                "ad3242748de0fcd7"
+                "1ad93b9097609d38"
+            ]
+        ]
+    },
+    {
+        "id": "81614558e443619a",
+        "type": "junction",
+        "z": "200b101ab42b8098",
+        "g": "1f6f9070f99ba76f",
+        "x": 480,
+        "y": 900,
+        "wires": [
+            [
+                "1ad93b9097609d38"
+            ]
+        ]
+    },
+    {
+        "id": "8016eb539dcc9544",
+        "type": "junction",
+        "z": "200b101ab42b8098",
+        "g": "1f6f9070f99ba76f",
+        "x": 480,
+        "y": 940,
+        "wires": [
+            [
+                "1ad93b9097609d38"
+            ]
+        ]
+    },
+    {
+        "id": "1ad93b9097609d38",
+        "type": "junction",
+        "z": "200b101ab42b8098",
+        "g": "1f6f9070f99ba76f",
+        "x": 540,
+        "y": 820,
+        "wires": [
+            [
+                "d4b35fc0e09366b2"
             ]
         ]
     },
@@ -154,7 +231,7 @@
             },
             "themeState": {
                 "base-color": {
-                    "default": "#4B7930",
+                    "default": "#ffa500",
                     "value": "#ffa500",
                     "edited": true
                 },
@@ -163,11 +240,11 @@
                     "edited": false
                 },
                 "page-backgroundColor": {
-                    "value": "#f6f5f4",
+                    "value": "#fafafa",
                     "edited": true
                 },
                 "page-sidebar-backgroundColor": {
-                    "value": "#c0bfbc",
+                    "value": "#ffffff",
                     "edited": true
                 },
                 "group-textColor": {
@@ -209,8 +286,8 @@
         "site": {
             "name": "Machine Demonstrator",
             "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "icon",
+            "allowSwipe": "menu",
+            "lockMenu": "true",
             "allowTempTheme": "true",
             "dateFormat": "DD.MM.YYYY",
             "sizes": {
@@ -224,79 +301,6 @@
                 "py": 0
             }
         }
-    },
-    {
-        "id": "e4a7ee10712fa77b",
-        "type": "ui_group",
-        "name": "Machine Power Controller",
-        "tab": "fb3e520f5cd2c8b4",
-        "order": 1,
-        "disp": true,
-        "width": "10",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "6eae8fe238eba172",
-        "type": "ui_group",
-        "name": "Machine State Controller",
-        "tab": "fb3e520f5cd2c8b4",
-        "order": 2,
-        "disp": true,
-        "width": "10",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "33fe6bd9f39b0e03",
-        "type": "ui_group",
-        "name": "Group 3",
-        "tab": "fb3e520f5cd2c8b4",
-        "order": 3,
-        "disp": true,
-        "width": "20",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "3f3f81464416a8bf",
-        "type": "ui_spacer",
-        "z": "f6f2187d.f17ca8",
-        "name": "spacer",
-        "group": "6eae8fe238eba172",
-        "order": 4,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "51a71e47a018cb1f",
-        "type": "ui_spacer",
-        "z": "f6f2187d.f17ca8",
-        "name": "spacer",
-        "group": "6eae8fe238eba172",
-        "order": 6,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "76fbca44514208e7",
-        "type": "ui_spacer",
-        "z": "f6f2187d.f17ca8",
-        "name": "spacer",
-        "group": "6eae8fe238eba172",
-        "order": 7,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "e1fa14771c84f24e",
-        "type": "ui_spacer",
-        "z": "f6f2187d.f17ca8",
-        "name": "spacer",
-        "group": "6eae8fe238eba172",
-        "order": 8,
-        "width": 3,
-        "height": 1
     },
     {
         "id": "1fccb85c07964bbc",
@@ -330,345 +334,345 @@
         "sessionExpiry": ""
     },
     {
-        "id": "e270ecaee8678f48",
-        "type": "ui_button",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
-        "name": "",
-        "group": "e4a7ee10712fa77b",
-        "order": 1,
-        "width": 5,
-        "height": 2,
-        "passthru": true,
-        "label": "Power On",
-        "tooltip": "",
-        "color": "black",
-        "bgcolor": "green",
-        "className": "",
-        "icon": "fa-power-off",
-        "payload": "set:power_on",
-        "payloadType": "str",
-        "topic": "set:power_on",
-        "topicType": "str",
-        "x": 120,
-        "y": 360,
-        "wires": [
-            [
-                "61942696e2e71f6f",
-                "2ca61c58298a7336"
-            ]
-        ]
-    },
-    {
-        "id": "ad3242748de0fcd7",
-        "type": "finite-state-machine",
-        "z": "f6f2187d.f17ca8",
-        "g": "9ab2bfc7d86032bd",
-        "name": "FSM for Machine Status, State, Mode",
-        "fsmDefinition": "{\"state\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powered off.\"}},\"transitions\":{\"OFF\":{\"set:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Machine power turned on.\"}}},\"ON\":{\"set:power_off\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powering off.\"}},\"set-auto:machine_idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}},\"IDLE\":{\"set:machine_start_automatic\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Machine is running in automatic mode.\"}},\"set:machine_start_manual\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Machine is running in manual mode.\"}},\"set-auto:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Returning to ON state.\"}}},\"AUTOMATIC_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from automatic mode.\"}},\"set:machine_start_manual\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Switching to manual running mode.\"}}},\"MANUAL_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from manual mode.\"}},\"set:machine_start_automatic\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Switching to automatic running mode.\"}}},\"STOPPING\":{\"set-auto:machine_idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}}}}",
-        "sendInitialState": true,
-        "sendStateWithoutChange": true,
-        "showTransitionErrors": true,
-        "x": 730,
-        "y": 460,
-        "wires": [
-            [
-                "96cd45cf61c65e25",
-                "0d676533fd31d3da"
-            ]
-        ]
-    },
-    {
-        "id": "dc83f75917e836f4",
-        "type": "ui_toast",
-        "z": "f6f2187d.f17ca8",
-        "position": "bottom right",
-        "displayTime": "2",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "className": "",
-        "topic": "",
-        "name": "",
-        "x": 1400,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "0ee6a21e180916c4",
-        "type": "ui_button",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
-        "name": "",
-        "group": "e4a7ee10712fa77b",
-        "order": 2,
-        "width": 5,
-        "height": 2,
-        "passthru": false,
-        "label": "Power Off",
-        "tooltip": "",
-        "color": "black",
-        "bgcolor": "red",
-        "className": "",
-        "icon": "fa-power-off",
-        "payload": "set:power_off",
-        "payloadType": "str",
-        "topic": "set:power_off",
-        "topicType": "str",
-        "x": 120,
-        "y": 320,
-        "wires": [
-            [
-                "2ca61c58298a7336"
-            ]
-        ]
-    },
-    {
-        "id": "96cd45cf61c65e25",
-        "type": "change",
-        "z": "f6f2187d.f17ca8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "payload.status",
-                "tot": "msg"
+        "id": "6ad50b22.167904",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
             },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.data.message",
-                "tot": "msg"
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
             }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1110,
-        "y": 340,
-        "wires": [
-            [
-                "dc83f75917e836f4",
-                "f224f81f4693dfc8"
-            ]
-        ]
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD.MM.YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
     },
     {
-        "id": "0d676533fd31d3da",
-        "type": "debug",
-        "z": "f6f2187d.f17ca8",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1160,
-        "y": 720,
-        "wires": []
-    },
-    {
-        "id": "f224f81f4693dfc8",
-        "type": "debug",
-        "z": "f6f2187d.f17ca8",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1360,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "61942696e2e71f6f",
-        "type": "delay",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
-        "name": "delay 3s",
-        "pauseType": "delay",
-        "timeout": "3",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 120,
-        "y": 460,
-        "wires": [
-            [
-                "264f57f7176764e5"
-            ]
-        ]
-    },
-    {
-        "id": "264f57f7176764e5",
-        "type": "ui_button",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
-        "name": "(Auto) Idle Mode",
-        "group": "6eae8fe238eba172",
+        "id": "24618cafcfc97d1b",
+        "type": "ui_group",
+        "name": "BW1",
+        "tab": "21310639d7cde507",
         "order": 1,
-        "width": 10,
-        "height": 1,
-        "passthru": true,
-        "label": "(Auto) Idle Mode",
-        "tooltip": "",
-        "color": "black",
-        "bgcolor": "gray",
-        "className": "",
-        "icon": "fa-repeat",
-        "payload": "set-auto:machine_idle",
-        "payloadType": "str",
-        "topic": "set-auto:machine_idle",
-        "topicType": "str",
-        "x": 280,
-        "y": 460,
-        "wires": [
-            [
-                "6b6b8072d51ffdc1"
-            ]
-        ]
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
-        "id": "c16c04657ab9fcd6",
-        "type": "ui_button",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
-        "name": "",
-        "group": "6eae8fe238eba172",
+        "id": "0792b15ed802e556",
+        "type": "ui_group",
+        "name": "EXT1",
+        "tab": "21310639d7cde507",
         "order": 2,
-        "width": 5,
-        "height": 2,
-        "passthru": true,
-        "label": "Automatic Mode",
-        "tooltip": "",
-        "color": "black",
-        "bgcolor": "green",
-        "className": "",
-        "icon": "fa-play",
-        "payload": "set:machine_start_automatic",
-        "payloadType": "str",
-        "topic": "set:machine_start_automatic",
-        "topicType": "str",
-        "x": 140,
-        "y": 500,
-        "wires": [
-            [
-                "fbe47bad79d06e95"
-            ]
-        ]
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
-        "id": "b2efbab12e98f95e",
-        "type": "ui_button",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
-        "name": "",
-        "group": "6eae8fe238eba172",
+        "id": "b683a0056d1a1b8f",
+        "type": "ui_group",
+        "name": "FLM1",
+        "tab": "21310639d7cde507",
         "order": 3,
-        "width": 5,
-        "height": 2,
-        "passthru": true,
-        "label": "Manual Mode",
-        "tooltip": "",
-        "color": "black",
-        "bgcolor": "orange",
-        "className": "",
-        "icon": "fa-user",
-        "payload": "set:machine_start_manual",
-        "payloadType": "str",
-        "topic": "set:machine_start_manual",
-        "topicType": "str",
-        "x": 140,
-        "y": 540,
-        "wires": [
-            [
-                "fbe47bad79d06e95"
-            ]
-        ]
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
-        "id": "9c827a7a26c435ef",
-        "type": "ui_button",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
-        "name": "",
-        "group": "6eae8fe238eba172",
+        "id": "b330802d927e3411",
+        "type": "ui_group",
+        "name": "HM1",
+        "tab": "21310639d7cde507",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7b6714ad3818e15e",
+        "type": "ui_group",
+        "name": "VULKA1",
+        "tab": "21310639d7cde507",
         "order": 5,
-        "width": 4,
-        "height": 2,
-        "passthru": true,
-        "label": "Stop",
-        "tooltip": "",
-        "color": "black",
-        "bgcolor": "darkred",
-        "className": "",
-        "icon": "fa-stop-circle-o",
-        "payload": "set:machine_stop",
-        "payloadType": "str",
-        "topic": "set:machine_stop",
-        "topicType": "str",
-        "x": 110,
-        "y": 580,
-        "wires": [
-            [
-                "4624b68b4d3842e1"
-            ]
-        ]
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
-        "id": "00423c3c314f9012",
-        "type": "comment",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
-        "name": "Machine State Controller",
-        "info": "",
-        "x": 170,
-        "y": 420,
-        "wires": []
+        "id": "21310639d7cde507",
+        "type": "ui_tab",
+        "name": "Testcenter",
+        "icon": "check",
+        "disabled": false,
+        "hidden": false
     },
     {
-        "id": "218fef76a23032db",
-        "type": "comment",
-        "z": "f6f2187d.f17ca8",
-        "g": "66a37e3f23e2f099",
-        "name": "Machine Power Controller",
-        "info": "",
-        "x": 170,
-        "y": 280,
-        "wires": []
+        "id": "50960a7ebfd5eef1",
+        "type": "OPCUA-IIoT-Connector",
+        "discoveryUrl": "",
+        "endpoint": "opc.tcp://fr05542vma.cw01.contiwan.com:4310",
+        "endpointMustExist": false,
+        "keepSessionAlive": true,
+        "loginEnabled": false,
+        "name": "Vulka_OPC_Server",
+        "showErrors": false,
+        "securityPolicy": "None",
+        "securityMode": "NONE",
+        "individualCerts": false,
+        "publicCertificateFile": "",
+        "privateKeyFile": "",
+        "defaultSecureTokenLifetime": "",
+        "autoSelectRightEndpoint": false,
+        "strategyMaxRetry": "",
+        "strategyInitialDelay": "",
+        "strategyMaxDelay": "",
+        "strategyRandomisationFactor": "",
+        "requestedSessionTimeout": "",
+        "connectionStartDelay": "",
+        "reconnectDelay": "",
+        "maxBadSessionRequests": "10"
     },
     {
-        "id": "6ffbb456530cadab",
-        "type": "comment",
-        "z": "f6f2187d.f17ca8",
-        "g": "9ab2bfc7d86032bd",
-        "name": "Finite State Machine",
-        "info": "",
-        "x": 670,
-        "y": 420,
-        "wires": []
+        "id": "b619126fa78d4440",
+        "type": "OPCUA-IIoT-Connector",
+        "discoveryUrl": "",
+        "endpoint": "opc.tcp://fr05542vma.cw01.contiwan.com:4338",
+        "endpointMustExist": false,
+        "keepSessionAlive": true,
+        "loginEnabled": false,
+        "name": "Braider_OPC_Server",
+        "showErrors": false,
+        "securityPolicy": "None",
+        "securityMode": "NONE",
+        "individualCerts": false,
+        "publicCertificateFile": "",
+        "privateKeyFile": "",
+        "defaultSecureTokenLifetime": "",
+        "autoSelectRightEndpoint": false,
+        "strategyMaxRetry": "",
+        "strategyInitialDelay": "",
+        "strategyMaxDelay": "",
+        "strategyRandomisationFactor": "",
+        "requestedSessionTimeout": "",
+        "connectionStartDelay": "",
+        "reconnectDelay": "",
+        "maxBadSessionRequests": "10"
+    },
+    {
+        "id": "6703b2f47ee00272",
+        "type": "OPCUA-IIoT-Connector",
+        "discoveryUrl": "",
+        "endpoint": "opc.tcp://fr05542vma.cw01.contiwan.com:4311",
+        "endpointMustExist": false,
+        "keepSessionAlive": true,
+        "loginEnabled": false,
+        "name": "Handcrafttable",
+        "showErrors": false,
+        "securityPolicy": "None",
+        "securityMode": "NONE",
+        "individualCerts": false,
+        "publicCertificateFile": "",
+        "privateKeyFile": "",
+        "defaultSecureTokenLifetime": "",
+        "autoSelectRightEndpoint": false,
+        "strategyMaxRetry": "",
+        "strategyInitialDelay": "",
+        "strategyMaxDelay": "",
+        "strategyRandomisationFactor": "",
+        "requestedSessionTimeout": "",
+        "connectionStartDelay": "",
+        "reconnectDelay": "",
+        "maxBadSessionRequests": "10"
+    },
+    {
+        "id": "9d99fc78b643137e",
+        "type": "OPCUA-IIoT-Connector",
+        "discoveryUrl": "",
+        "endpoint": "opc.tcp://fr05542vma.cw01.contiwan.com:4337",
+        "endpointMustExist": false,
+        "keepSessionAlive": true,
+        "loginEnabled": false,
+        "name": "Extruder_OPC_Server",
+        "showErrors": false,
+        "securityPolicy": "None",
+        "securityMode": "NONE",
+        "individualCerts": false,
+        "publicCertificateFile": "",
+        "privateKeyFile": "",
+        "defaultSecureTokenLifetime": "",
+        "autoSelectRightEndpoint": false,
+        "strategyMaxRetry": "",
+        "strategyInitialDelay": "",
+        "strategyMaxDelay": "",
+        "strategyRandomisationFactor": "",
+        "requestedSessionTimeout": "",
+        "connectionStartDelay": "",
+        "reconnectDelay": "",
+        "maxBadSessionRequests": "10"
+    },
+    {
+        "id": "99540a3581bf9034",
+        "type": "OPCUA-IIoT-Connector",
+        "discoveryUrl": "",
+        "endpoint": "opc.tcp://fr05542vma.cw01.contiwan.com:4339",
+        "endpointMustExist": false,
+        "keepSessionAlive": true,
+        "loginEnabled": false,
+        "name": "TapWinder",
+        "showErrors": false,
+        "securityPolicy": "None",
+        "securityMode": "NONE",
+        "individualCerts": false,
+        "publicCertificateFile": "",
+        "privateKeyFile": "",
+        "defaultSecureTokenLifetime": "",
+        "autoSelectRightEndpoint": false,
+        "strategyMaxRetry": "",
+        "strategyInitialDelay": "",
+        "strategyMaxDelay": "",
+        "strategyRandomisationFactor": "",
+        "requestedSessionTimeout": "",
+        "connectionStartDelay": "",
+        "reconnectDelay": "",
+        "maxBadSessionRequests": "10"
+    },
+    {
+        "id": "75e489917fbcf868",
+        "type": "ui_group",
+        "name": "Machine | PLC",
+        "tab": "fb3e520f5cd2c8b4",
+        "order": 1,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7bd0c2c50b37164f",
+        "type": "ui_tab",
+        "name": "Test",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c34be0c21cfab46c",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "7bd0c2c50b37164f",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0b39d065d4027b9d",
+        "type": "ui_group",
+        "name": "Manufacturing Execution",
+        "tab": "fb3e520f5cd2c8b4",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9aae83e7a27743fb",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "fb3e520f5cd2c8b4",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "78c581a3281eb3f6",
@@ -724,11 +728,11 @@
         "wires": []
     },
     {
-        "id": "40815df7aca4b6e9",
+        "id": "7331381c38698ac7",
         "type": "mqtt out",
         "z": "f6f2187d.f17ca8",
         "name": "",
-        "topic": "json/plc/demo-machine/",
+        "topic": "datatroniq/data/protob/plc/<device>/<protocol>/",
         "qos": "",
         "retain": "",
         "respTopic": "",
@@ -737,9 +741,4608 @@
         "correl": "",
         "expiry": "",
         "broker": "1fccb85c07964bbc",
-        "x": 1210,
+        "x": 1760,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "94e4bffcd61cb795",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "MACHINE|PLC",
+        "info": "",
+        "x": 360,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "df49b1c270ab432e",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "75e489917fbcf868",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Machine:Start of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "StartofProduction",
+        "payloadType": "str",
+        "topic": "StartofProduction",
+        "topicType": "str",
+        "x": 400,
+        "y": 460,
+        "wires": [
+            [
+                "e1023e96f1274e0b"
+            ]
+        ]
+    },
+    {
+        "id": "f214a2e04f7c9760",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "75e489917fbcf868",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Machine:Stop of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "StopMachine",
+        "payloadType": "str",
+        "topic": "StopMachine",
+        "topicType": "str",
+        "x": 400,
+        "y": 540,
+        "wires": [
+            [
+                "e1023e96f1274e0b"
+            ]
+        ]
+    },
+    {
+        "id": "44ef3609dbb4ca33",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "75e489917fbcf868",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Machine:Alarm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Alarm",
+        "payloadType": "str",
+        "topic": "Alarm",
+        "topicType": "str",
+        "x": 360,
+        "y": 500,
+        "wires": [
+            [
+                "e1023e96f1274e0b"
+            ]
+        ]
+    },
+    {
+        "id": "7b8a5dbab7d3437b",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 380,
+        "wires": [
+            [
+                "524d3c23bd5079e2"
+            ]
+        ]
+    },
+    {
+        "id": "e1023e96f1274e0b",
+        "type": "finite-state-machine",
+        "z": "f6f2187d.f17ca8",
+        "name": "FSM for MachineryItemState",
+        "fsmDefinition": "{\"state\":{\"status\":\"OFF\",\"data\":{\"MachineryItemState\":\"Unknown\",\"MachineryOperationMode\":\"Unknown\"}},\"transitions\":{\"OFF\":{\"PowerOn\":{\"status\":\"ON\",\"data\":{\"MachineryItemState\":\"Unknown\",\"MachineryOperationMode\":\"Unknown\"}}},\"ON\":{\"SetJobData\":{\"status\":\"SETUP\",\"data\":{\"MachineryItemState\":\"NotExecuting\",\"MachineryOperationMode\":\"Setup\"}},\"PowerOff\":{\"status\":\"OFF\",\"data\":{\"MachineryItemState\":\"Unknown\",\"MachineryOperationMode\":\"Unknown\"}}},\"SETUP\":{\"StartofProduction\":{\"status\":\"RUNNING\",\"data\":{\"MachineryItemState\":\"Executing\",\"MachineryOperationMode\":\"Processing\"}},\"Alarm\":{\"status\":\"ALARM\",\"data\":{\"MachineryItemState\":\"Out of Service\",\"MachineryOperationMode\":\"Not Executing\"}}},\"RUNNING\":{\"Alarm\":{\"status\":\"ALARM\",\"data\":{\"MachineryItemState\":\"Out of Service\",\"MachineryOperationMode\":\"Not Executing\"}},\"StopMachine\":{\"status\":\"STOPPED\",\"data\":{\"MachineryItemState\":\"Out of Service\",\"MachineryOperationMode\":\"Setup\"}}},\"ALARM\":{\"Reset\":{\"status\":\"SETUP\",\"data\":{\"MachineryItemState\":\"Unknown\",\"MachineryOperationMode\":\"Unknown\"}}},\"STOPPED\":{\"Reset\":{\"status\":\"ON\",\"data\":{\"MachineryItemState\":\"Unknown\",\"MachineryOperationMode\":\"Unknown\"}}}}}",
+        "sendInitialState": true,
+        "sendStateWithoutChange": true,
+        "showTransitionErrors": true,
+        "x": 740,
+        "y": 380,
+        "wires": [
+            [
+                "7c1f4a186750ed20",
+                "c2819b1aa79a0d15",
+                "36e24ec91f859bb0"
+            ]
+        ]
+    },
+    {
+        "id": "524d3c23bd5079e2",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "75e489917fbcf868",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Machine:Power On",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-power-off",
+        "payload": "PowerOn",
+        "payloadType": "str",
+        "topic": "PowerOn",
+        "topicType": "str",
+        "x": 370,
+        "y": 380,
+        "wires": [
+            [
+                "e1023e96f1274e0b"
+            ]
+        ]
+    },
+    {
+        "id": "98b2803d66e6c041",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 460,
+        "wires": [
+            [
+                "df49b1c270ab432e"
+            ]
+        ]
+    },
+    {
+        "id": "896c7ecc3369480f",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 500,
+        "wires": [
+            [
+                "44ef3609dbb4ca33"
+            ]
+        ]
+    },
+    {
+        "id": "d221c2b7a268648d",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 540,
+        "wires": [
+            [
+                "f214a2e04f7c9760"
+            ]
+        ]
+    },
+    {
+        "id": "ab87298d7acb8146",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "75e489917fbcf868",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Machine:Power Off",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-power-off",
+        "payload": "PowerOff",
+        "payloadType": "str",
+        "topic": "PowerOff",
+        "topicType": "str",
+        "x": 370,
+        "y": 340,
+        "wires": [
+            [
+                "e1023e96f1274e0b"
+            ]
+        ]
+    },
+    {
+        "id": "d888b95b1ad2dcb5",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 340,
+        "wires": [
+            [
+                "ab87298d7acb8146"
+            ]
+        ]
+    },
+    {
+        "id": "ebf60b83d1d78fbe",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "75e489917fbcf868",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Machine:Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Reset",
+        "payloadType": "str",
+        "topic": "Reset",
+        "topicType": "str",
+        "x": 360,
+        "y": 580,
+        "wires": [
+            [
+                "e1023e96f1274e0b"
+            ]
+        ]
+    },
+    {
+        "id": "791af06bf5ab84ce",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 580,
+        "wires": [
+            [
+                "ebf60b83d1d78fbe"
+            ]
+        ]
+    },
+    {
+        "id": "8ef5a048a3523c9f",
+        "type": "OPCUA-IIoT-Node",
+        "z": "f6f2187d.f17ca8",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"DemoMachine\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "",
+        "name": "MachineryOperationMode",
+        "topic": "",
+        "showErrors": true,
+        "x": 1350,
+        "y": 560,
+        "wires": [
+            [
+                "36e24ec91f859bb0"
+            ]
+        ]
+    },
+    {
+        "id": "989e84ae4e2426c0",
+        "type": "OPCUA-IIoT-Node",
+        "z": "f6f2187d.f17ca8",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"DemoMachine\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "",
+        "name": "MachineryItemState",
+        "topic": "",
+        "showErrors": true,
+        "x": 1340,
+        "y": 500,
+        "wires": [
+            [
+                "36e24ec91f859bb0"
+            ]
+        ]
+    },
+    {
+        "id": "36e24ec91f859bb0",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1630,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "7c1f4a186750ed20",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "move MachineryItemState",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.data.MachineryItemState",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1050,
+        "y": 500,
+        "wires": [
+            [
+                "989e84ae4e2426c0"
+            ]
+        ]
+    },
+    {
+        "id": "c2819b1aa79a0d15",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "move MachineryOperationMode",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.data.MachineryOperationMode",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1070,
+        "y": 560,
+        "wires": [
+            [
+                "8ef5a048a3523c9f"
+            ]
+        ]
+    },
+    {
+        "id": "input1",
+        "type": "ui_text_input",
+        "z": "f6f2187d.f17ca8",
+        "name": "JobName",
+        "label": "Job Name",
+        "tooltip": "",
+        "group": "0b39d065d4027b9d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "JobName",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 340,
+        "y": 740,
+        "wires": [
+            [
+                "functionNode"
+            ]
+        ]
+    },
+    {
+        "id": "input2",
+        "type": "ui_text_input",
+        "z": "f6f2187d.f17ca8",
+        "name": "ProductName",
+        "label": "Product Name",
+        "tooltip": "",
+        "group": "0b39d065d4027b9d",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "ProductName",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 360,
+        "y": 780,
+        "wires": [
+            [
+                "functionNode"
+            ]
+        ]
+    },
+    {
+        "id": "functionNode",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Compile Data",
+        "func": "var data = flow.get('formData') || {};\n\n// get data\nif (msg.topic === 'JobName') {\n    data.JobName = msg.payload;\n} else if (msg.topic === 'ProductName') {\n    data.ProductName = msg.payload;\n} else if (msg.topic === 'ProductDescription') {\n    data.ProductDescription = msg.payload;\n} else if (msg.topic === 'JobGoodPartsCounter') {\n    data.JobGoodPartsCounter = msg.payload;\n} else if (msg.topic === 'JobBadPartsCounter') {\n    data.JobBadPartsCounter = msg.payload;\n} else if (msg.topic === 'JobQuantityPlanned') {\n    data.JobQuantityPlanned = msg.payload;\n}\n\n\nflow.set('formData', data);\n\nif(msg.topic === 'SetJobData') {\n    msg.data = data;\n    flow.set('formData', {});\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 780,
+        "wires": [
+            [
+                "outputNode",
+                "e1023e96f1274e0b"
+            ]
+        ]
+    },
+    {
+        "id": "outputNode",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "Output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "0df84d03ce0a4a68",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "Submit",
+        "group": "0b39d065d4027b9d",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "MES:Set Job Data",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "SetJobData",
+        "payloadType": "str",
+        "topic": "SetJobData",
+        "topicType": "str",
+        "x": 340,
+        "y": 1080,
+        "wires": [
+            [
+                "7da94b7d56d343d3",
+                "functionNode"
+            ]
+        ]
+    },
+    {
+        "id": "82461b97f24d03fe",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "Clear",
+        "group": "0b39d065d4027b9d",
+        "order": 8,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Clear",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "clear",
+        "topicType": "str",
+        "x": 330,
+        "y": 1120,
+        "wires": [
+            [
+                "7da94b7d56d343d3",
+                "functionNode"
+            ]
+        ]
+    },
+    {
+        "id": "7da94b7d56d343d3",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "clear",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 1080,
+        "wires": [
+            [
+                "163b0c2af63978fd"
+            ]
+        ]
+    },
+    {
+        "id": "163b0c2af63978fd",
+        "type": "link out",
+        "z": "f6f2187d.f17ca8",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "400c7dfa2427a074",
+            "0bfd72bdd89f268d",
+            "632909c9f2cea01e",
+            "67c07fbad654185f",
+            "1872210073f5317a",
+            "ec37f62fb4eae438"
+        ],
+        "x": 625,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "400c7dfa2427a074",
+        "type": "link in",
+        "z": "f6f2187d.f17ca8",
+        "name": "link in 1",
+        "links": [
+            "163b0c2af63978fd"
+        ],
+        "x": 215,
+        "y": 740,
+        "wires": [
+            [
+                "input1"
+            ]
+        ]
+    },
+    {
+        "id": "0bfd72bdd89f268d",
+        "type": "link in",
+        "z": "f6f2187d.f17ca8",
+        "name": "link in 2",
+        "links": [
+            "163b0c2af63978fd"
+        ],
+        "x": 215,
+        "y": 780,
+        "wires": [
+            [
+                "input2"
+            ]
+        ]
+    },
+    {
+        "id": "854f866ae91774c4",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "MES|EXT",
+        "info": "",
+        "x": 340,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "83a2f4029660d9be",
+        "type": "ui_text_input",
+        "z": "f6f2187d.f17ca8",
+        "name": "JobGoodPartsCounter",
+        "label": "Job Good Parts Counter",
+        "tooltip": "",
+        "group": "0b39d065d4027b9d",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "JobGoodPartsCounter",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 380,
+        "y": 860,
+        "wires": [
+            [
+                "functionNode"
+            ]
+        ]
+    },
+    {
+        "id": "2d2abdcde84ba920",
+        "type": "ui_text_input",
+        "z": "f6f2187d.f17ca8",
+        "name": "JobBadPartsCounter",
+        "label": "Job Bad Parts Counter",
+        "tooltip": "",
+        "group": "0b39d065d4027b9d",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "JobBadPartsCounter",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 380,
+        "y": 900,
+        "wires": [
+            [
+                "functionNode"
+            ]
+        ]
+    },
+    {
+        "id": "632909c9f2cea01e",
+        "type": "link in",
+        "z": "f6f2187d.f17ca8",
+        "name": "link in 3",
+        "links": [
+            "163b0c2af63978fd"
+        ],
+        "x": 215,
+        "y": 860,
+        "wires": [
+            [
+                "83a2f4029660d9be"
+            ]
+        ]
+    },
+    {
+        "id": "67c07fbad654185f",
+        "type": "link in",
+        "z": "f6f2187d.f17ca8",
+        "name": "link in 4",
+        "links": [
+            "163b0c2af63978fd"
+        ],
+        "x": 215,
+        "y": 900,
+        "wires": [
+            [
+                "2d2abdcde84ba920"
+            ]
+        ]
+    },
+    {
+        "id": "bb119160e6456291",
+        "type": "ui_text_input",
+        "z": "f6f2187d.f17ca8",
+        "name": "JobQuantityPlanned",
+        "label": "Job Quantity Planned",
+        "tooltip": "",
+        "group": "0b39d065d4027b9d",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "JobQuantityPlanned",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 380,
+        "y": 940,
+        "wires": [
+            [
+                "functionNode"
+            ]
+        ]
+    },
+    {
+        "id": "1872210073f5317a",
+        "type": "link in",
+        "z": "f6f2187d.f17ca8",
+        "name": "link in 5",
+        "links": [
+            "163b0c2af63978fd"
+        ],
+        "x": 215,
+        "y": 940,
+        "wires": [
+            [
+                "bb119160e6456291"
+            ]
+        ]
+    },
+    {
+        "id": "4c40ac25a98f6444",
+        "type": "ui_text_input",
+        "z": "f6f2187d.f17ca8",
+        "name": "ProductDescription",
+        "label": "Product Description",
+        "tooltip": "",
+        "group": "0b39d065d4027b9d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "ProductDescription",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 370,
+        "y": 820,
+        "wires": [
+            [
+                "functionNode"
+            ]
+        ]
+    },
+    {
+        "id": "ec37f62fb4eae438",
+        "type": "link in",
+        "z": "f6f2187d.f17ca8",
+        "name": "link in 6",
+        "links": [
+            "163b0c2af63978fd"
+        ],
+        "x": 215,
+        "y": 820,
+        "wires": [
+            [
+                "4c40ac25a98f6444"
+            ]
+        ]
+    },
+    {
+        "id": "0193a5d13508b0b2",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Executing",
+        "name": "ItemState Executing",
+        "topic": "",
+        "showErrors": true,
+        "x": 380,
+        "y": 60,
+        "wires": [
+            [
+                "15128ae02ed8941c"
+            ]
+        ]
+    },
+    {
+        "id": "1bc7d2b820913103",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "Processing",
+        "name": "OperationMode Processing",
+        "topic": "",
+        "showErrors": true,
+        "x": 400,
+        "y": 120,
+        "wires": [
+            [
+                "15128ae02ed8941c"
+            ]
+        ]
+    },
+    {
+        "id": "f8c16962106a0cf5",
+        "type": "comment",
+        "z": "a6c83e676ba242bb",
+        "name": "274BW1",
+        "info": "",
+        "x": 80,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "17ef55fd15e6f0a6",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Out of Service",
+        "name": "ItemState Out of Service",
+        "topic": "",
+        "showErrors": true,
+        "x": 390,
+        "y": 180,
+        "wires": [
+            [
+                "15128ae02ed8941c"
+            ]
+        ]
+    },
+    {
+        "id": "e4c072b91f8f4444",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Not Executing",
+        "name": "ItemState Not Executing",
+        "topic": "",
+        "showErrors": true,
+        "x": 390,
+        "y": 260,
+        "wires": [
+            [
+                "15128ae02ed8941c"
+            ]
+        ]
+    },
+    {
+        "id": "652f8ef9b91a1024",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "Setup",
+        "name": "OperationMode Setup",
+        "topic": "",
+        "showErrors": true,
+        "x": 380,
+        "y": 320,
+        "wires": [
+            [
+                "15128ae02ed8941c"
+            ]
+        ]
+    },
+    {
+        "id": "90a00fa48f9a7091",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "24618cafcfc97d1b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "0193a5d13508b0b2",
+                "1bc7d2b820913103"
+            ]
+        ]
+    },
+    {
+        "id": "8d2fa071ed77b444",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "24618cafcfc97d1b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Stop of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "17ef55fd15e6f0a6"
+            ]
+        ]
+    },
+    {
+        "id": "914732a8e40ad4eb",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+        "datatype": "Double",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1710,
+        "y": 60,
+        "wires": [
+            [
+                "d3553f8d4ac1d00b"
+            ]
+        ]
+    },
+    {
+        "id": "bb4921efc010dff4",
+        "type": "ui_numeric",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "label": "JobGoodPartsCounter",
+        "tooltip": "",
+        "group": "24618cafcfc97d1b",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 2380,
+        "y": 60,
+        "wires": [
+            [
+                "a0dcbd3bc476caa1"
+            ]
+        ]
+    },
+    {
+        "id": "394e60fc4923471c",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+        "datatype": "Double",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1710,
+        "y": 140,
+        "wires": [
+            [
+                "285b024ccb3074bd"
+            ]
+        ]
+    },
+    {
+        "id": "46ef6e47731944b4",
+        "type": "ui_numeric",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "label": "JobBadPartsCounter",
+        "tooltip": "",
+        "group": "24618cafcfc97d1b",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 2380,
+        "y": 140,
+        "wires": [
+            [
+                "3df207d224ad2689"
+            ]
+        ]
+    },
+    {
+        "id": "b0f191a69997a909",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"JobInformation\".\"ProductName\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1690,
+        "y": 200,
+        "wires": [
+            [
+                "8bf258fd239b73c2"
+            ]
+        ]
+    },
+    {
+        "id": "8bf258fd239b73c2",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "24618cafcfc97d1b",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Product Name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2200,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "77f648eae8f9a52f",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"JobInformation\".\"JobName\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1670,
+        "y": 260,
+        "wires": [
+            [
+                "e55e77c2034fef1a"
+            ]
+        ]
+    },
+    {
+        "id": "e55e77c2034fef1a",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "24618cafcfc97d1b",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "JobName",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2180,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "290c503e4fe08671",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1690,
+        "y": 360,
+        "wires": [
+            [
+                "d3536bd9f6a9fe52"
+            ]
+        ]
+    },
+    {
+        "id": "d3536bd9f6a9fe52",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "24618cafcfc97d1b",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MachineryItemState",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2220,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "c2196ec8eda2b04d",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1700,
+        "y": 420,
+        "wires": [
+            [
+                "5a9f0c5d704bc7f8"
+            ]
+        ]
+    },
+    {
+        "id": "5a9f0c5d704bc7f8",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "24618cafcfc97d1b",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MachineryOperationMode",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2230,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "d3553f8d4ac1d00b",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 2160,
+        "y": 60,
+        "wires": [
+            [
+                "bb4921efc010dff4"
+            ]
+        ]
+    },
+    {
+        "id": "285b024ccb3074bd",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 2160,
+        "y": 140,
+        "wires": [
+            [
+                "46ef6e47731944b4"
+            ]
+        ]
+    },
+    {
+        "id": "a878ffd154b9b3fc",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+        "datatype": "Double",
+        "value": "",
+        "name": "JobGoodPartsWrite",
+        "topic": "",
+        "showErrors": true,
+        "x": 670,
+        "y": 300,
+        "wires": [
+            [
+                "15128ae02ed8941c"
+            ]
+        ]
+    },
+    {
+        "id": "ce21adeba5c43434",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+        "datatype": "Double",
+        "value": "",
+        "name": "JobBadPartsWrite",
+        "topic": "",
+        "showErrors": true,
+        "x": 670,
+        "y": 360,
+        "wires": [
+            [
+                "15128ae02ed8941c"
+            ]
+        ]
+    },
+    {
+        "id": "a0dcbd3bc476caa1",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2600,
+        "y": 80,
+        "wires": [
+            [
+                "a878ffd154b9b3fc"
+            ]
+        ]
+    },
+    {
+        "id": "3df207d224ad2689",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2600,
+        "y": 140,
+        "wires": [
+            [
+                "ce21adeba5c43434"
+            ]
+        ]
+    },
+    {
+        "id": "e0fe185186846b07",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"JobInformation\".\"ProductDescription\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1700,
+        "y": 320,
+        "wires": [
+            [
+                "2743837f576eb365"
+            ]
+        ]
+    },
+    {
+        "id": "2743837f576eb365",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "24618cafcfc97d1b",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Product Description",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2210,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "a5c251c757402ed0",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Executing",
+        "name": "ItemState Executing",
+        "topic": "",
+        "showErrors": true,
+        "x": 380,
+        "y": 520,
+        "wires": [
+            [
+                "2efefe338cb410fb"
+            ]
+        ]
+    },
+    {
+        "id": "92d986274b76c684",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "Processing",
+        "name": "OperationMode Processing",
+        "topic": "",
+        "showErrors": true,
+        "x": 400,
+        "y": 580,
+        "wires": [
+            [
+                "2efefe338cb410fb"
+            ]
+        ]
+    },
+    {
+        "id": "77af6110267354f9",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Out of Service",
+        "name": "ItemState Out of Service",
+        "topic": "",
+        "showErrors": true,
+        "x": 390,
+        "y": 640,
+        "wires": [
+            [
+                "2efefe338cb410fb"
+            ]
+        ]
+    },
+    {
+        "id": "051971181eb7ea83",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Not Executing",
+        "name": "ItemState Not Executing",
+        "topic": "",
+        "showErrors": true,
+        "x": 390,
+        "y": 720,
+        "wires": [
+            [
+                "2efefe338cb410fb"
+            ]
+        ]
+    },
+    {
+        "id": "4db394095dbc1852",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "Setup",
+        "name": "OperationMode Setup",
+        "topic": "",
+        "showErrors": true,
+        "x": 380,
+        "y": 760,
+        "wires": [
+            [
+                "2efefe338cb410fb"
+            ]
+        ]
+    },
+    {
+        "id": "62a8309070e1512b",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "0792b15ed802e556",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 540,
+        "wires": [
+            [
+                "a5c251c757402ed0",
+                "92d986274b76c684"
+            ]
+        ]
+    },
+    {
+        "id": "8b1b21e36a380e73",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "0792b15ed802e556",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Alarm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 70,
+        "y": 640,
+        "wires": [
+            [
+                "77af6110267354f9"
+            ]
+        ]
+    },
+    {
+        "id": "d7823e2cf77f83ee",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "0792b15ed802e556",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Stop of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 760,
+        "wires": [
+            [
+                "77af6110267354f9"
+            ]
+        ]
+    },
+    {
+        "id": "953b1233cd5c2c99",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+        "datatype": "Int64",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1710,
+        "y": 520,
+        "wires": [
+            [
+                "e2d373acfb13c447"
+            ]
+        ]
+    },
+    {
+        "id": "51a4191520563e7c",
+        "type": "ui_numeric",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "label": "JobGoodPartsCounter",
+        "tooltip": "",
+        "group": "0792b15ed802e556",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 2380,
+        "y": 520,
+        "wires": [
+            [
+                "8bd232f689fc071a"
+            ]
+        ]
+    },
+    {
+        "id": "ce160377c4a4daa6",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+        "datatype": "Int64",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1710,
+        "y": 600,
+        "wires": [
+            [
+                "95327b718fe519ac"
+            ]
+        ]
+    },
+    {
+        "id": "f36a2250f6213558",
+        "type": "ui_numeric",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "label": "JobBadPartsCounter",
+        "tooltip": "",
+        "group": "0792b15ed802e556",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 2380,
+        "y": 600,
+        "wires": [
+            [
+                "fa697294ee4c4ec8"
+            ]
+        ]
+    },
+    {
+        "id": "36ed4d69d2d9bf32",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"JobInformation\".\"ProductName\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1690,
+        "y": 660,
+        "wires": [
+            [
+                "64442a7039c7cbc6"
+            ]
+        ]
+    },
+    {
+        "id": "64442a7039c7cbc6",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "0792b15ed802e556",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Product Name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2200,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "020843ce013b322c",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"JobInformation\".\"JobName\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1680,
+        "y": 720,
+        "wires": [
+            [
+                "46244ac1623c1ba2"
+            ]
+        ]
+    },
+    {
+        "id": "46244ac1623c1ba2",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "0792b15ed802e556",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "JobName",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2180,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "8b3f2ed3dae07843",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1690,
+        "y": 820,
+        "wires": [
+            [
+                "d8fbb04348099e96"
+            ]
+        ]
+    },
+    {
+        "id": "d8fbb04348099e96",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "0792b15ed802e556",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MachineryItemState",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2220,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "aa64f596bc4754ef",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1710,
+        "y": 880,
+        "wires": [
+            [
+                "751527368d0bef59"
+            ]
+        ]
+    },
+    {
+        "id": "751527368d0bef59",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "0792b15ed802e556",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MachineryOperationMode",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2230,
         "y": 880,
         "wires": []
+    },
+    {
+        "id": "e2d373acfb13c447",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 2160,
+        "y": 520,
+        "wires": [
+            [
+                "51a4191520563e7c"
+            ]
+        ]
+    },
+    {
+        "id": "95327b718fe519ac",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 2160,
+        "y": 600,
+        "wires": [
+            [
+                "f36a2250f6213558"
+            ]
+        ]
+    },
+    {
+        "id": "39d849c3e0a7f369",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+        "datatype": "Double",
+        "value": "",
+        "name": "JobGoodPartsWrite",
+        "topic": "",
+        "showErrors": true,
+        "x": 670,
+        "y": 760,
+        "wires": [
+            [
+                "2efefe338cb410fb"
+            ]
+        ]
+    },
+    {
+        "id": "98ed7a15225d4ebd",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+        "datatype": "Double",
+        "value": "",
+        "name": "JobBadPartsWrite",
+        "topic": "",
+        "showErrors": true,
+        "x": 670,
+        "y": 820,
+        "wires": [
+            [
+                "2efefe338cb410fb"
+            ]
+        ]
+    },
+    {
+        "id": "8bd232f689fc071a",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2600,
+        "y": 540,
+        "wires": [
+            [
+                "39d849c3e0a7f369"
+            ]
+        ]
+    },
+    {
+        "id": "fa697294ee4c4ec8",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2600,
+        "y": 600,
+        "wires": [
+            [
+                "98ed7a15225d4ebd"
+            ]
+        ]
+    },
+    {
+        "id": "15f4c445ec334c86",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"JobInformation\".\"ProductDescription\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1700,
+        "y": 780,
+        "wires": [
+            [
+                "7b5ac9a852a24af6"
+            ]
+        ]
+    },
+    {
+        "id": "7b5ac9a852a24af6",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "0792b15ed802e556",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Product Description",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2210,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "da578604c7d54704",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Executing",
+        "name": "ItemState Executing",
+        "topic": "",
+        "showErrors": true,
+        "x": 380,
+        "y": 960,
+        "wires": [
+            [
+                "92369bf0c5fee275"
+            ]
+        ]
+    },
+    {
+        "id": "4a1e5fa6da3a4b7d",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "Processing",
+        "name": "OperationMode Processing",
+        "topic": "",
+        "showErrors": true,
+        "x": 400,
+        "y": 1020,
+        "wires": [
+            [
+                "92369bf0c5fee275"
+            ]
+        ]
+    },
+    {
+        "id": "1d3c9f137e641062",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Out of Service",
+        "name": "ItemState Out of Service",
+        "topic": "",
+        "showErrors": true,
+        "x": 390,
+        "y": 1080,
+        "wires": [
+            [
+                "92369bf0c5fee275"
+            ]
+        ]
+    },
+    {
+        "id": "e810f94818b0cb4f",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Not Executing",
+        "name": "ItemState Not Executing",
+        "topic": "",
+        "showErrors": true,
+        "x": 390,
+        "y": 1160,
+        "wires": [
+            [
+                "92369bf0c5fee275"
+            ]
+        ]
+    },
+    {
+        "id": "89c1b2fc8b31a9b5",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "Setup",
+        "name": "OperationMode Setup",
+        "topic": "",
+        "showErrors": true,
+        "x": 380,
+        "y": 1200,
+        "wires": [
+            [
+                "92369bf0c5fee275"
+            ]
+        ]
+    },
+    {
+        "id": "1a6b0a01e480b66b",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "b683a0056d1a1b8f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 980,
+        "wires": [
+            [
+                "da578604c7d54704",
+                "4a1e5fa6da3a4b7d"
+            ]
+        ]
+    },
+    {
+        "id": "eb0327d4f6f60076",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "b683a0056d1a1b8f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Alarm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 70,
+        "y": 1080,
+        "wires": [
+            [
+                "1d3c9f137e641062"
+            ]
+        ]
+    },
+    {
+        "id": "e5b201360c749c0e",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "b683a0056d1a1b8f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Stop of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 1200,
+        "wires": [
+            [
+                "1d3c9f137e641062"
+            ]
+        ]
+    },
+    {
+        "id": "c027da8923a6b8d2",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+        "datatype": "Int64",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1720,
+        "y": 960,
+        "wires": [
+            [
+                "7745fd664cdf9042"
+            ]
+        ]
+    },
+    {
+        "id": "85049bc4e2d3ca75",
+        "type": "ui_numeric",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "label": "JobGoodPartsCounter",
+        "tooltip": "",
+        "group": "b683a0056d1a1b8f",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 2380,
+        "y": 960,
+        "wires": [
+            [
+                "62e8dafeb21f5275"
+            ]
+        ]
+    },
+    {
+        "id": "f7d839e41e05b996",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+        "datatype": "Int64",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1710,
+        "y": 1040,
+        "wires": [
+            [
+                "fab62db99d64c82b"
+            ]
+        ]
+    },
+    {
+        "id": "d32fbdaa943cdf4a",
+        "type": "ui_numeric",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "label": "JobBadPartsCounter",
+        "tooltip": "",
+        "group": "b683a0056d1a1b8f",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 2380,
+        "y": 1040,
+        "wires": [
+            [
+                "13cc46af42f45228"
+            ]
+        ]
+    },
+    {
+        "id": "384fc89732312183",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"JobInformation\".\"ProductName\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1690,
+        "y": 1100,
+        "wires": [
+            [
+                "f57cf2b302689bf6"
+            ]
+        ]
+    },
+    {
+        "id": "f57cf2b302689bf6",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "b683a0056d1a1b8f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Product Name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2200,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "956de4c1b1cadc98",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"JobInformation\".\"JobName\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1680,
+        "y": 1160,
+        "wires": [
+            [
+                "405cccdddff7c0ad"
+            ]
+        ]
+    },
+    {
+        "id": "405cccdddff7c0ad",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "b683a0056d1a1b8f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "JobName",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2180,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "be8fb486aa0eb8a5",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1690,
+        "y": 1260,
+        "wires": [
+            [
+                "dfc5acfa17858556"
+            ]
+        ]
+    },
+    {
+        "id": "dfc5acfa17858556",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "b683a0056d1a1b8f",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MachineryItemState",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2220,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "01b2db3d14c42b84",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1710,
+        "y": 1320,
+        "wires": [
+            [
+                "473d7deeb0ed668c"
+            ]
+        ]
+    },
+    {
+        "id": "473d7deeb0ed668c",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "b683a0056d1a1b8f",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MachineryOperationMode",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2230,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "7745fd664cdf9042",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 2160,
+        "y": 960,
+        "wires": [
+            [
+                "85049bc4e2d3ca75"
+            ]
+        ]
+    },
+    {
+        "id": "fab62db99d64c82b",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 2160,
+        "y": 1040,
+        "wires": [
+            [
+                "d32fbdaa943cdf4a"
+            ]
+        ]
+    },
+    {
+        "id": "15f8f277cdfb616b",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+        "datatype": "Double",
+        "value": "",
+        "name": "JobGoodPartsWrite",
+        "topic": "",
+        "showErrors": true,
+        "x": 670,
+        "y": 1200,
+        "wires": [
+            [
+                "92369bf0c5fee275"
+            ]
+        ]
+    },
+    {
+        "id": "0c54c4f505675398",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+        "datatype": "Double",
+        "value": "",
+        "name": "JobBadPartsWrite",
+        "topic": "",
+        "showErrors": true,
+        "x": 670,
+        "y": 1260,
+        "wires": [
+            [
+                "92369bf0c5fee275"
+            ]
+        ]
+    },
+    {
+        "id": "62e8dafeb21f5275",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2600,
+        "y": 980,
+        "wires": [
+            [
+                "15f8f277cdfb616b"
+            ]
+        ]
+    },
+    {
+        "id": "13cc46af42f45228",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2600,
+        "y": 1040,
+        "wires": [
+            [
+                "0c54c4f505675398"
+            ]
+        ]
+    },
+    {
+        "id": "62ae9f10fe90386e",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"JobInformation\".\"ProductDescription\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1700,
+        "y": 1220,
+        "wires": [
+            [
+                "1ede09ef7c4b9552"
+            ]
+        ]
+    },
+    {
+        "id": "1ede09ef7c4b9552",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "b683a0056d1a1b8f",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Product Description",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2210,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "37b8d56155538f89",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Executing",
+        "name": "ItemState Executing",
+        "topic": "",
+        "showErrors": true,
+        "x": 380,
+        "y": 1420,
+        "wires": [
+            [
+                "3f2ac5937f164fe6"
+            ]
+        ]
+    },
+    {
+        "id": "f3e5b5a28b060fa1",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "Processing",
+        "name": "OperationMode Processing",
+        "topic": "",
+        "showErrors": true,
+        "x": 400,
+        "y": 1480,
+        "wires": [
+            [
+                "3f2ac5937f164fe6"
+            ]
+        ]
+    },
+    {
+        "id": "6079d5512eb35d74",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Out of Service",
+        "name": "ItemState Out of Service",
+        "topic": "",
+        "showErrors": true,
+        "x": 390,
+        "y": 1540,
+        "wires": [
+            [
+                "3f2ac5937f164fe6"
+            ]
+        ]
+    },
+    {
+        "id": "bb9ae2c76cdb23ec",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Not Executing",
+        "name": "ItemState Not Executing",
+        "topic": "",
+        "showErrors": true,
+        "x": 390,
+        "y": 1620,
+        "wires": [
+            [
+                "3f2ac5937f164fe6"
+            ]
+        ]
+    },
+    {
+        "id": "61aaeb83e98f9a35",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "Setup",
+        "name": "OperationMode Setup",
+        "topic": "",
+        "showErrors": true,
+        "x": 380,
+        "y": 1660,
+        "wires": [
+            [
+                "3f2ac5937f164fe6"
+            ]
+        ]
+    },
+    {
+        "id": "87c9e29f798b67ec",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "b330802d927e3411",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 1440,
+        "wires": [
+            [
+                "37b8d56155538f89",
+                "f3e5b5a28b060fa1"
+            ]
+        ]
+    },
+    {
+        "id": "a119111ccede5eed",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "b330802d927e3411",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Alarm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 70,
+        "y": 1540,
+        "wires": [
+            [
+                "6079d5512eb35d74"
+            ]
+        ]
+    },
+    {
+        "id": "90555b66707564a9",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "b330802d927e3411",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Stop of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 1660,
+        "wires": [
+            [
+                "6079d5512eb35d74"
+            ]
+        ]
+    },
+    {
+        "id": "8f0d443e5d18cc00",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+        "datatype": "Double",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1710,
+        "y": 1420,
+        "wires": [
+            [
+                "bf9112df059a17d8"
+            ]
+        ]
+    },
+    {
+        "id": "d8727f4badb0d55d",
+        "type": "ui_numeric",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "label": "JobGoodPartsCounter",
+        "tooltip": "",
+        "group": "b330802d927e3411",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 2380,
+        "y": 1420,
+        "wires": [
+            [
+                "bf040afe45355356"
+            ]
+        ]
+    },
+    {
+        "id": "7ddb0d46b35c33a7",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+        "datatype": "Double",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1710,
+        "y": 1500,
+        "wires": [
+            [
+                "69145d9e400793eb"
+            ]
+        ]
+    },
+    {
+        "id": "83bb1f6c237739e4",
+        "type": "ui_numeric",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "label": "JobBadPartsCounter",
+        "tooltip": "",
+        "group": "b330802d927e3411",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 2380,
+        "y": 1500,
+        "wires": [
+            [
+                "77df6f805fe9b01c"
+            ]
+        ]
+    },
+    {
+        "id": "ced308bed4c961c7",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"JobInformation\".\"ProductName\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1690,
+        "y": 1560,
+        "wires": [
+            [
+                "7c8ff98be6218f8d"
+            ]
+        ]
+    },
+    {
+        "id": "7c8ff98be6218f8d",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "b330802d927e3411",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Product Name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2200,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "2bbcda0746fba856",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"JobInformation\".\"JobName\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1670,
+        "y": 1620,
+        "wires": [
+            [
+                "c15c10b46496771a"
+            ]
+        ]
+    },
+    {
+        "id": "c15c10b46496771a",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "b330802d927e3411",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "JobName",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2180,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "982f39ba630a83e5",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1680,
+        "y": 1720,
+        "wires": [
+            [
+                "423a5995f3553bac"
+            ]
+        ]
+    },
+    {
+        "id": "423a5995f3553bac",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "b330802d927e3411",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MachineryItemState",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2220,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "52ce52913ce0d284",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1700,
+        "y": 1780,
+        "wires": [
+            [
+                "54b474b4ee11bc9b"
+            ]
+        ]
+    },
+    {
+        "id": "54b474b4ee11bc9b",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "b330802d927e3411",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MachineryOperationMode",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2230,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "bf9112df059a17d8",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2160,
+        "y": 1420,
+        "wires": [
+            [
+                "d8727f4badb0d55d"
+            ]
+        ]
+    },
+    {
+        "id": "69145d9e400793eb",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 2160,
+        "y": 1500,
+        "wires": [
+            [
+                "83bb1f6c237739e4"
+            ]
+        ]
+    },
+    {
+        "id": "8f9d08d61c3a0425",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+        "datatype": "Double",
+        "value": "",
+        "name": "JobGoodPartsWrite",
+        "topic": "",
+        "showErrors": true,
+        "x": 670,
+        "y": 1660,
+        "wires": [
+            [
+                "3f2ac5937f164fe6"
+            ]
+        ]
+    },
+    {
+        "id": "8e76b1ce485b83ad",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+        "datatype": "Double",
+        "value": "",
+        "name": "JobBadPartsWrite",
+        "topic": "",
+        "showErrors": true,
+        "x": 670,
+        "y": 1720,
+        "wires": [
+            [
+                "3f2ac5937f164fe6"
+            ]
+        ]
+    },
+    {
+        "id": "bf040afe45355356",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2600,
+        "y": 1440,
+        "wires": [
+            [
+                "8f9d08d61c3a0425"
+            ]
+        ]
+    },
+    {
+        "id": "77df6f805fe9b01c",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2600,
+        "y": 1500,
+        "wires": [
+            [
+                "8e76b1ce485b83ad"
+            ]
+        ]
+    },
+    {
+        "id": "982c247bf900819c",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"JobInformation\".\"ProductDescription\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1700,
+        "y": 1680,
+        "wires": [
+            [
+                "78f6f1c02bac1211"
+            ]
+        ]
+    },
+    {
+        "id": "78f6f1c02bac1211",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "b330802d927e3411",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Product Description",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2210,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "c6dce482e74a3c28",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Executing",
+        "name": "ItemState Executing",
+        "topic": "",
+        "showErrors": true,
+        "x": 380,
+        "y": 1860,
+        "wires": [
+            [
+                "c3d3d42d368f91ca"
+            ]
+        ]
+    },
+    {
+        "id": "b2c7a2ee5d0f8fca",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "Processing",
+        "name": "OperationMode Processing",
+        "topic": "",
+        "showErrors": true,
+        "x": 400,
+        "y": 1920,
+        "wires": [
+            [
+                "c3d3d42d368f91ca"
+            ]
+        ]
+    },
+    {
+        "id": "ec17949f7ad326e0",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Out of Service",
+        "name": "ItemState Out of Service",
+        "topic": "",
+        "showErrors": true,
+        "x": 390,
+        "y": 1980,
+        "wires": [
+            [
+                "c3d3d42d368f91ca"
+            ]
+        ]
+    },
+    {
+        "id": "a35e258b2cebd6ec",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Not Executing",
+        "name": "ItemState Not Executing",
+        "topic": "",
+        "showErrors": true,
+        "x": 390,
+        "y": 2060,
+        "wires": [
+            [
+                "c3d3d42d368f91ca"
+            ]
+        ]
+    },
+    {
+        "id": "8481f9c974b328ce",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "Setup",
+        "name": "OperationMode Setup",
+        "topic": "",
+        "showErrors": true,
+        "x": 380,
+        "y": 2100,
+        "wires": [
+            [
+                "c3d3d42d368f91ca"
+            ]
+        ]
+    },
+    {
+        "id": "087657c744a8c34f",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "7b6714ad3818e15e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 1880,
+        "wires": [
+            [
+                "c6dce482e74a3c28",
+                "b2c7a2ee5d0f8fca"
+            ]
+        ]
+    },
+    {
+        "id": "9baf024095a83c3e",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "7b6714ad3818e15e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Alarm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 70,
+        "y": 1980,
+        "wires": [
+            [
+                "ec17949f7ad326e0"
+            ]
+        ]
+    },
+    {
+        "id": "135a212659e010a7",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "7b6714ad3818e15e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Stop of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 2100,
+        "wires": [
+            [
+                "ec17949f7ad326e0"
+            ]
+        ]
+    },
+    {
+        "id": "9613d2c178c3b6a8",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+        "datatype": "Int64",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1720,
+        "y": 1860,
+        "wires": [
+            [
+                "fcc43390059182c7"
+            ]
+        ]
+    },
+    {
+        "id": "73299593fbd0c03f",
+        "type": "ui_numeric",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "label": "JobGoodPartsCounter",
+        "tooltip": "",
+        "group": "7b6714ad3818e15e",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 2380,
+        "y": 1860,
+        "wires": [
+            [
+                "4831dfceb9402162"
+            ]
+        ]
+    },
+    {
+        "id": "109f58c2edb43e43",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+        "datatype": "Int64",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1720,
+        "y": 1940,
+        "wires": [
+            [
+                "8c9e604ad63045de"
+            ]
+        ]
+    },
+    {
+        "id": "dde7213e400534d5",
+        "type": "ui_numeric",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "label": "JobBadPartsCounter",
+        "tooltip": "",
+        "group": "7b6714ad3818e15e",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 2380,
+        "y": 1940,
+        "wires": [
+            [
+                "442177cd9c23cd5b"
+            ]
+        ]
+    },
+    {
+        "id": "15bf6428bf133cca",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"JobInformation\".\"ProductName\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1700,
+        "y": 2000,
+        "wires": [
+            [
+                "cbdada2241594de2"
+            ]
+        ]
+    },
+    {
+        "id": "cbdada2241594de2",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "7b6714ad3818e15e",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Product Name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2200,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "49791c6f0a9a1437",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"JobInformation\".\"JobName\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1680,
+        "y": 2060,
+        "wires": [
+            [
+                "6933426a8e42f9dd"
+            ]
+        ]
+    },
+    {
+        "id": "6933426a8e42f9dd",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "7b6714ad3818e15e",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "JobName",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2180,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "58fab7836aa7a791",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1700,
+        "y": 2160,
+        "wires": [
+            [
+                "7c9f1b7709934ddf"
+            ]
+        ]
+    },
+    {
+        "id": "7c9f1b7709934ddf",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "7b6714ad3818e15e",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MachineryItemState",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2220,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "2758dfbab7dd0751",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1720,
+        "y": 2220,
+        "wires": [
+            [
+                "2ccb53b3da6f5b55"
+            ]
+        ]
+    },
+    {
+        "id": "2ccb53b3da6f5b55",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "7b6714ad3818e15e",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MachineryOperationMode",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2230,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "fcc43390059182c7",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 2160,
+        "y": 1860,
+        "wires": [
+            [
+                "73299593fbd0c03f"
+            ]
+        ]
+    },
+    {
+        "id": "8c9e604ad63045de",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 2160,
+        "y": 1940,
+        "wires": [
+            [
+                "dde7213e400534d5"
+            ]
+        ]
+    },
+    {
+        "id": "cf8c10281f588949",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+        "datatype": "Double",
+        "value": "",
+        "name": "JobGoodPartsWrite",
+        "topic": "",
+        "showErrors": true,
+        "x": 670,
+        "y": 2100,
+        "wires": [
+            [
+                "c3d3d42d368f91ca"
+            ]
+        ]
+    },
+    {
+        "id": "75bfda143d86029d",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6c83e676ba242bb",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+        "datatype": "Double",
+        "value": "",
+        "name": "JobBadPartsWrite",
+        "topic": "",
+        "showErrors": true,
+        "x": 670,
+        "y": 2160,
+        "wires": [
+            [
+                "c3d3d42d368f91ca"
+            ]
+        ]
+    },
+    {
+        "id": "4831dfceb9402162",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2600,
+        "y": 1880,
+        "wires": [
+            [
+                "cf8c10281f588949"
+            ]
+        ]
+    },
+    {
+        "id": "442177cd9c23cd5b",
+        "type": "function",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "func": "msg.payload = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2600,
+        "y": 1940,
+        "wires": [
+            [
+                "75bfda143d86029d"
+            ]
+        ]
+    },
+    {
+        "id": "84964782321b47d2",
+        "type": "OPCUA-IIoT-Result-Filter",
+        "z": "a6c83e676ba242bb",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"JobInformation\".\"ProductDescription\"",
+        "datatype": "String",
+        "fixedValue": false,
+        "fixPoint": 2,
+        "withPrecision": false,
+        "precision": 2,
+        "entry": 1,
+        "justValue": true,
+        "withValueCheck": false,
+        "minvalue": "",
+        "maxvalue": "",
+        "defaultvalue": "",
+        "topic": "",
+        "name": "",
+        "showErrors": false,
+        "x": 1710,
+        "y": 2120,
+        "wires": [
+            [
+                "67502c15a8212fee"
+            ]
+        ]
+    },
+    {
+        "id": "67502c15a8212fee",
+        "type": "ui_text",
+        "z": "a6c83e676ba242bb",
+        "group": "7b6714ad3818e15e",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Product Description",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2210,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "1204f902fc63e7e3",
+        "type": "comment",
+        "z": "a6c83e676ba242bb",
+        "name": "EXT1",
+        "info": "",
+        "x": 70,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "25c62608a3389efc",
+        "type": "comment",
+        "z": "a6c83e676ba242bb",
+        "name": "FLM1",
+        "info": "",
+        "x": 70,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "7e57e6aa1cab3d91",
+        "type": "comment",
+        "z": "a6c83e676ba242bb",
+        "name": "HM1",
+        "info": "",
+        "x": 70,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "27d841fe46716e6c",
+        "type": "comment",
+        "z": "a6c83e676ba242bb",
+        "name": "VULKA1",
+        "info": "",
+        "x": 80,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "d00e2239a76b424f",
+        "type": "ui_button",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "group": "24618cafcfc97d1b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Alarm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 70,
+        "y": 180,
+        "wires": [
+            [
+                "17ef55fd15e6f0a6"
+            ]
+        ]
+    },
+    {
+        "id": "15128ae02ed8941c",
+        "type": "OPCUA-IIoT-Write",
+        "z": "a6c83e676ba242bb",
+        "connector": "99540a3581bf9034",
+        "name": "Testcenter_TapWinder_Methods",
+        "justValue": true,
+        "showStatusActivities": true,
+        "showErrors": true,
+        "x": 990,
+        "y": 80,
+        "wires": [
+            [
+                "94361e145235eb4a"
+            ]
+        ]
+    },
+    {
+        "id": "94361e145235eb4a",
+        "type": "debug",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "56ce436c3e692e2d",
+        "type": "OPCUA-IIoT-Inject",
+        "z": "a6c83e676ba242bb",
+        "injectType": "listen",
+        "payload": "1000",
+        "payloadType": "num",
+        "topic": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "startDelay": "15",
+        "name": "Testcenter_Methods",
+        "addressSpaceItems": [
+            {
+                "name": "BW1JobGoodPartsCounter",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "BW1JobBadPartsCounter",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "BW1Jobname",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"JobInformation\".\"JobName\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "BW1Productname",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"JobInformation\".\"ProductName\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "BW1ProductDescription",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"JobInformation\".\"ProductDescription\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "BW1ItemState",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "BW1OperationMode",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+                "datatypeName": ""
+            }
+        ],
+        "x": 960,
+        "y": 340,
+        "wires": [
+            [
+                "49593c5b82b96209"
+            ]
+        ]
+    },
+    {
+        "id": "49593c5b82b96209",
+        "type": "OPCUA-IIoT-Listener",
+        "z": "a6c83e676ba242bb",
+        "connector": "99540a3581bf9034",
+        "action": "subscribe",
+        "queueSize": 10,
+        "name": "",
+        "topic": "",
+        "justValue": true,
+        "useGroupItems": false,
+        "showStatusActivities": true,
+        "showErrors": true,
+        "x": 1180,
+        "y": 340,
+        "wires": [
+            [
+                "914732a8e40ad4eb",
+                "394e60fc4923471c",
+                "b0f191a69997a909",
+                "77f648eae8f9a52f",
+                "e0fe185186846b07",
+                "c2196ec8eda2b04d",
+                "290c503e4fe08671"
+            ]
+        ]
+    },
+    {
+        "id": "c3d3d42d368f91ca",
+        "type": "OPCUA-IIoT-Write",
+        "z": "a6c83e676ba242bb",
+        "connector": "50960a7ebfd5eef1",
+        "name": "Vulka",
+        "justValue": true,
+        "showStatusActivities": true,
+        "showErrors": true,
+        "x": 910,
+        "y": 1960,
+        "wires": [
+            [
+                "86bd7e319fd7ab17"
+            ]
+        ]
+    },
+    {
+        "id": "083929dc26994adb",
+        "type": "OPCUA-IIoT-Inject",
+        "z": "a6c83e676ba242bb",
+        "injectType": "listen",
+        "payload": "1000",
+        "payloadType": "num",
+        "topic": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "startDelay": "15",
+        "name": "Testcenter_Vulka_Methods",
+        "addressSpaceItems": [
+            {
+                "name": "VULKA1JobGoodPartsCounter",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "VULKA1JobBadPartsCounter",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "VULKA1Jobname",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"JobInformation\".\"JobName\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "VULKA1Productname",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"JobInformation\".\"ProductName\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "VULKA1ProductDescription",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"JobInformation\".\"ProductDescription\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "VULKA1ItemState",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "VULKA1OperationMode",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"VULKA1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+                "datatypeName": ""
+            }
+        ],
+        "x": 960,
+        "y": 2160,
+        "wires": [
+            [
+                "84aa569213db520d"
+            ]
+        ]
+    },
+    {
+        "id": "84aa569213db520d",
+        "type": "OPCUA-IIoT-Listener",
+        "z": "a6c83e676ba242bb",
+        "connector": "50960a7ebfd5eef1",
+        "action": "subscribe",
+        "queueSize": 10,
+        "name": "",
+        "topic": "",
+        "justValue": true,
+        "useGroupItems": false,
+        "showStatusActivities": true,
+        "showErrors": true,
+        "x": 1200,
+        "y": 2160,
+        "wires": [
+            [
+                "109f58c2edb43e43",
+                "9613d2c178c3b6a8",
+                "15bf6428bf133cca",
+                "49791c6f0a9a1437",
+                "84964782321b47d2",
+                "58fab7836aa7a791",
+                "2758dfbab7dd0751"
+            ]
+        ]
+    },
+    {
+        "id": "92369bf0c5fee275",
+        "type": "OPCUA-IIoT-Write",
+        "z": "a6c83e676ba242bb",
+        "connector": "b619126fa78d4440",
+        "name": "Braider_OPC-Server",
+        "justValue": true,
+        "showStatusActivities": true,
+        "showErrors": true,
+        "x": 940,
+        "y": 980,
+        "wires": [
+            [
+                "9d74724ceab5e7dc"
+            ]
+        ]
+    },
+    {
+        "id": "c45f443684a48dd8",
+        "type": "OPCUA-IIoT-Inject",
+        "z": "a6c83e676ba242bb",
+        "injectType": "listen",
+        "payload": "1000",
+        "payloadType": "num",
+        "topic": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "startDelay": "15",
+        "name": "Testcenter_Braider_Methods",
+        "addressSpaceItems": [
+            {
+                "name": "FLM1JobGoodPartsCounter",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "FLM1JobBadPartsCounter",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "FLM1Jobname",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"JobInformation\".\"JobName\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "FLM1Productname",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"JobInformation\".\"ProductName\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "FLM1ProductDescription",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"JobInformation\".\"ProductDescription\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "FLM1ItemState",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "FLM1OperationMode",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"FLM1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+                "datatypeName": ""
+            }
+        ],
+        "x": 1000,
+        "y": 1100,
+        "wires": [
+            [
+                "5d6ecab21902c3df"
+            ]
+        ]
+    },
+    {
+        "id": "5d6ecab21902c3df",
+        "type": "OPCUA-IIoT-Listener",
+        "z": "a6c83e676ba242bb",
+        "connector": "b619126fa78d4440",
+        "action": "subscribe",
+        "queueSize": 10,
+        "name": "",
+        "topic": "",
+        "justValue": true,
+        "useGroupItems": false,
+        "showStatusActivities": true,
+        "showErrors": true,
+        "x": 1220,
+        "y": 1140,
+        "wires": [
+            [
+                "c027da8923a6b8d2",
+                "f7d839e41e05b996",
+                "384fc89732312183",
+                "956de4c1b1cadc98",
+                "62ae9f10fe90386e",
+                "be8fb486aa0eb8a5",
+                "01b2db3d14c42b84"
+            ]
+        ]
+    },
+    {
+        "id": "9d74724ceab5e7dc",
+        "type": "debug",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "86bd7e319fd7ab17",
+        "type": "debug",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "3f2ac5937f164fe6",
+        "type": "OPCUA-IIoT-Write",
+        "z": "a6c83e676ba242bb",
+        "connector": "6703b2f47ee00272",
+        "name": "Handcrafttable_OPC_Server",
+        "justValue": true,
+        "showStatusActivities": true,
+        "showErrors": true,
+        "x": 840,
+        "y": 1480,
+        "wires": [
+            [
+                "2780c8baf108ec77"
+            ]
+        ]
+    },
+    {
+        "id": "2780c8baf108ec77",
+        "type": "debug",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "be4a36315bdea06c",
+        "type": "OPCUA-IIoT-Inject",
+        "z": "a6c83e676ba242bb",
+        "injectType": "listen",
+        "payload": "1000",
+        "payloadType": "num",
+        "topic": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "startDelay": "15",
+        "name": "Testcenter_Handcrafttable_Methods",
+        "addressSpaceItems": [
+            {
+                "name": "HM1JobGoodPartsCounter",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "HM1JobBadPartsCounter",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "HM1Jobname",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"JobInformation\".\"JobName\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "HM1Productname",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"JobInformation\".\"ProductName\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "HM1ProductDescription",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"JobInformation\".\"ProductDescription\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "HM1ItemState",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "HM1OperationMode",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"HM1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+                "datatypeName": ""
+            }
+        ],
+        "x": 990,
+        "y": 1700,
+        "wires": [
+            [
+                "deb8c831c32e467a"
+            ]
+        ]
+    },
+    {
+        "id": "deb8c831c32e467a",
+        "type": "OPCUA-IIoT-Listener",
+        "z": "a6c83e676ba242bb",
+        "connector": "6703b2f47ee00272",
+        "action": "subscribe",
+        "queueSize": 10,
+        "name": "",
+        "topic": "",
+        "justValue": true,
+        "useGroupItems": false,
+        "showStatusActivities": true,
+        "showErrors": true,
+        "x": 1240,
+        "y": 1700,
+        "wires": [
+            [
+                "8f0d443e5d18cc00",
+                "7ddb0d46b35c33a7",
+                "ced308bed4c961c7",
+                "2bbcda0746fba856",
+                "982c247bf900819c",
+                "982f39ba630a83e5",
+                "52ce52913ce0d284"
+            ]
+        ]
+    },
+    {
+        "id": "2efefe338cb410fb",
+        "type": "OPCUA-IIoT-Write",
+        "z": "a6c83e676ba242bb",
+        "connector": "9d99fc78b643137e",
+        "name": "Extruder_OPC-Server",
+        "justValue": true,
+        "showStatusActivities": true,
+        "showErrors": true,
+        "x": 840,
+        "y": 580,
+        "wires": [
+            [
+                "0ae1d432bba83c7f"
+            ]
+        ]
+    },
+    {
+        "id": "0ae1d432bba83c7f",
+        "type": "debug",
+        "z": "a6c83e676ba242bb",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "c3436acf42731569",
+        "type": "OPCUA-IIoT-Inject",
+        "z": "a6c83e676ba242bb",
+        "injectType": "listen",
+        "payload": "1000",
+        "payloadType": "num",
+        "topic": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "startDelay": "15",
+        "name": "Testcenter_Extruder_Methods",
+        "addressSpaceItems": [
+            {
+                "name": "EX1JobGoodPartsCounter",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"JobInformation\".\"JobGoodPartsCounter\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "EX1JobBadPartsCounter",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"JobInformation\".\"JobBadPartsCounter\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "EX1Jobname",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"JobInformation\".\"JobName\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "EX1ProductDescription",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"JobInformation\".\"ProductDescription\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "EX1ProductName",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"JobInformation\".\"ProductName\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "EX1ItemState",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+                "datatypeName": ""
+            },
+            {
+                "name": "EXT1OperationMode",
+                "nodeId": "ns=1;s=\"Root\".\"Objects\".\"EXT1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+                "datatypeName": ""
+            }
+        ],
+        "x": 950,
+        "y": 680,
+        "wires": [
+            [
+                "48cc87fe62e1c41d"
+            ]
+        ]
+    },
+    {
+        "id": "48cc87fe62e1c41d",
+        "type": "OPCUA-IIoT-Listener",
+        "z": "a6c83e676ba242bb",
+        "connector": "9d99fc78b643137e",
+        "action": "subscribe",
+        "queueSize": 10,
+        "name": "",
+        "topic": "",
+        "justValue": true,
+        "useGroupItems": false,
+        "showStatusActivities": true,
+        "showErrors": true,
+        "x": 1220,
+        "y": 680,
+        "wires": [
+            [
+                "953b1233cd5c2c99",
+                "ce160377c4a4daa6",
+                "36ed4d69d2d9bf32",
+                "020843ce013b322c",
+                "15f4c445ec334c86",
+                "8b3f2ed3dae07843",
+                "aa64f596bc4754ef"
+            ]
+        ]
     },
     {
         "id": "19a11ec57b69f8cd",
@@ -877,5 +5480,1244 @@
         "x": 290,
         "y": 80,
         "wires": []
+    },
+    {
+        "id": "76e1dc3ffc4c81c9",
+        "type": "ui_toast",
+        "z": "200b101ab42b8098",
+        "position": "bottom right",
+        "displayTime": "2",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1460,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "7cc7c403372cb2cc",
+        "type": "change",
+        "z": "200b101ab42b8098",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "payload.status",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.data.message",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1250,
+        "y": 600,
+        "wires": [
+            [
+                "76e1dc3ffc4c81c9",
+                "9a795a6131969175"
+            ]
+        ]
+    },
+    {
+        "id": "14d28f1c73486e98",
+        "type": "debug",
+        "z": "200b101ab42b8098",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1220,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "9a795a6131969175",
+        "type": "debug",
+        "z": "200b101ab42b8098",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "a624ac341eb2ccce",
+        "type": "inject",
+        "z": "200b101ab42b8098",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3492c7da430c6705",
+        "type": "debug",
+        "z": "200b101ab42b8098",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1020,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "08336ecb9599bee7",
+        "type": "comment",
+        "z": "200b101ab42b8098",
+        "name": "INITIALIZATION FLOW",
+        "info": "",
+        "x": 600,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "fa192d97da41a620",
+        "type": "delay",
+        "z": "200b101ab42b8098",
+        "g": "1f6f9070f99ba76f",
+        "name": "delay 3s",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 180,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f291d2b91e38d7a",
+        "type": "comment",
+        "z": "200b101ab42b8098",
+        "g": "1f6f9070f99ba76f",
+        "name": "Machine State Controller",
+        "info": "",
+        "x": 230,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "1ce3a1b0e9912cc8",
+        "type": "comment",
+        "z": "200b101ab42b8098",
+        "g": "1f6f9070f99ba76f",
+        "name": "Machine Power Controller",
+        "info": "",
+        "x": 230,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "d4b35fc0e09366b2",
+        "type": "finite-state-machine",
+        "z": "200b101ab42b8098",
+        "g": "eaa03a2269154b92",
+        "name": "FSM for Machine Status, State, Mode",
+        "fsmDefinition": "{\"state\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powered off.\"}},\"transitions\":{\"OFF\":{\"set:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Machine power turned on.\"}}},\"ON\":{\"set:power_off\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powering off.\"}},\"set-auto:machine_idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}},\"IDLE\":{\"set:machine_start_automatic\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Machine is running in automatic mode.\"}},\"set:machine_start_manual\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Machine is running in manual mode.\"}},\"set-auto:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Returning to ON state.\"}}},\"AUTOMATIC_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from automatic mode.\"}},\"set:machine_start_manual\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Switching to manual running mode.\"}}},\"MANUAL_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from manual mode.\"}},\"set:machine_start_automatic\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Switching to automatic running mode.\"}}},\"STOPPING\":{\"set-auto:machine_idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}}}}",
+        "sendInitialState": true,
+        "sendStateWithoutChange": true,
+        "showTransitionErrors": true,
+        "x": 790,
+        "y": 820,
+        "wires": [
+            [
+                "7cc7c403372cb2cc",
+                "14d28f1c73486e98"
+            ]
+        ]
+    },
+    {
+        "id": "7543dd7c150360d5",
+        "type": "comment",
+        "z": "200b101ab42b8098",
+        "g": "eaa03a2269154b92",
+        "name": "Finite State Machine",
+        "info": "",
+        "x": 730,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "7f7b2b1dfc26c340",
+        "type": "ui_toast",
+        "z": "a6aea6158ffe49a3",
+        "g": "20d0d9c5018e77aa",
+        "position": "bottom right",
+        "displayTime": "2",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1250,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "43d28e8d923c2fcb",
+        "type": "change",
+        "z": "a6aea6158ffe49a3",
+        "g": "20d0d9c5018e77aa",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "payload.status",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.data.message",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1050,
+        "y": 500,
+        "wires": [
+            [
+                "7f7b2b1dfc26c340"
+            ]
+        ]
+    },
+    {
+        "id": "d670b426cdeda136",
+        "type": "inject",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eda4b83d1feae352",
+        "type": "debug",
+        "z": "a6aea6158ffe49a3",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "6bcc0ddebfc5667b",
+        "type": "comment",
+        "z": "a6aea6158ffe49a3",
+        "name": "INITIALIZATION FLOW",
+        "info": "",
+        "x": 590,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "041fcd10a10caafe",
+        "type": "mqtt out",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "topic": "datatroniq/data/protob/plc/<device>/<protocol>/",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1fccb85c07964bbc",
+        "x": 1740,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "74d48a189698cee3",
+        "type": "finite-state-machine",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "fsmDefinition": "{\"state\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powered off.\"}},\"transitions\":{\"OFF\":{\"set:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Machine power turned on.\"}}},\"ON\":{\"set:power_off\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powering off.\"}},\"set-auto:idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}},\"IDLE\":{\"set:machine_start_automatic\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Machine is running in automatic mode.\"}},\"set:machine_start_manual\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Machine is running in manual mode.\"}},\"set-auto:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Returning to ON state.\"}}},\"AUTOMATIC_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from automatic mode.\"}},\"set:machine_manual_mode\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Switching to manual running mode.\"}}},\"MANUAL_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from manual mode.\"}},\"set:machine_automatic_mode\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Switching to automatic running mode.\"}}},\"STOPPING\":{\"set-auto:machine_idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}}}}",
+        "sendInitialState": true,
+        "sendStateWithoutChange": true,
+        "showTransitionErrors": true,
+        "x": 760,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a0aeec387b48e304",
+        "type": "delay",
+        "z": "a6aea6158ffe49a3",
+        "g": "e2cec32a23a40efa",
+        "name": "delay 3s",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 150,
+        "y": 500,
+        "wires": [
+            [
+                "f0ba9d2733685468"
+            ]
+        ]
+    },
+    {
+        "id": "f0ba9d2733685468",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "g": "e2cec32a23a40efa",
+        "name": "(Auto) Idle Mode",
+        "group": "c34be0c21cfab46c",
+        "order": 1,
+        "width": "6",
+        "height": 1,
+        "passthru": true,
+        "label": "(Auto) Idle Mode",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "gray",
+        "className": "",
+        "icon": "fa-repeat",
+        "payload": "set-auto:machine_idle",
+        "payloadType": "str",
+        "topic": "set-auto:machine_idle",
+        "topicType": "str",
+        "x": 310,
+        "y": 500,
+        "wires": [
+            [
+                "6ca3cc9284d533bd"
+            ]
+        ]
+    },
+    {
+        "id": "9d387ca3dcf2dc11",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "g": "e2cec32a23a40efa",
+        "name": "",
+        "group": "c34be0c21cfab46c",
+        "order": 2,
+        "width": 5,
+        "height": 2,
+        "passthru": true,
+        "label": "Automatic Mode",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-play",
+        "payload": "set:machine_start_automatic",
+        "payloadType": "str",
+        "topic": "set:machine_start_automatic",
+        "topicType": "str",
+        "x": 170,
+        "y": 540,
+        "wires": [
+            [
+                "6ca3cc9284d533bd"
+            ]
+        ]
+    },
+    {
+        "id": "a8ae0660adb44684",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "g": "e2cec32a23a40efa",
+        "name": "",
+        "group": "c34be0c21cfab46c",
+        "order": 3,
+        "width": 5,
+        "height": 2,
+        "passthru": true,
+        "label": "Manual Mode",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "orange",
+        "className": "",
+        "icon": "fa-user",
+        "payload": "set:machine_start_manual",
+        "payloadType": "str",
+        "topic": "set:machine_start_manual",
+        "topicType": "str",
+        "x": 170,
+        "y": 580,
+        "wires": [
+            [
+                "6ca3cc9284d533bd"
+            ]
+        ]
+    },
+    {
+        "id": "123ddc7cea4990a6",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "g": "e2cec32a23a40efa",
+        "name": "",
+        "group": "c34be0c21cfab46c",
+        "order": 5,
+        "width": 4,
+        "height": 2,
+        "passthru": true,
+        "label": "Stop",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "darkred",
+        "className": "",
+        "icon": "fa-stop-circle-o",
+        "payload": "set:machine_stop",
+        "payloadType": "str",
+        "topic": "set:machine_stop",
+        "topicType": "str",
+        "x": 140,
+        "y": 620,
+        "wires": [
+            [
+                "6ca3cc9284d533bd"
+            ]
+        ]
+    },
+    {
+        "id": "c50227f29744978d",
+        "type": "comment",
+        "z": "a6aea6158ffe49a3",
+        "g": "e2cec32a23a40efa",
+        "name": "Machine State Controller",
+        "info": "",
+        "x": 200,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "956ea28871f6b446",
+        "type": "comment",
+        "z": "a6aea6158ffe49a3",
+        "g": "e2cec32a23a40efa",
+        "name": "Machine Power Controller",
+        "info": "",
+        "x": 200,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "6ca3cc9284d533bd",
+        "type": "finite-state-machine",
+        "z": "a6aea6158ffe49a3",
+        "g": "555c34874e8b07a9",
+        "name": "FSM for Machine Status, State, Mode",
+        "fsmDefinition": "{\"state\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powered off.\"}},\"transitions\":{\"OFF\":{\"set:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Machine power turned on.\"}}},\"ON\":{\"set:power_off\":{\"status\":\"OFF\",\"data\":{\"message\":\"Machine is powering off.\"}},\"set-auto:machine_idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}},\"IDLE\":{\"set:machine_start_automatic\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Machine is running in automatic mode.\"}},\"set:machine_start_manual\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Machine is running in manual mode.\"}},\"set-auto:power_on\":{\"status\":\"ON\",\"data\":{\"message\":\"Returning to ON state.\"}}},\"AUTOMATIC_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from automatic mode.\"}},\"set:machine_start_manual\":{\"status\":\"MANUAL_RUNNING\",\"data\":{\"message\":\"Switching to manual running mode.\"}}},\"MANUAL_RUNNING\":{\"set:machine_stop\":{\"status\":\"STOPPING\",\"data\":{\"message\":\"Machine is stopping from manual mode.\"}},\"set:machine_start_automatic\":{\"status\":\"AUTOMATIC_RUNNING\",\"data\":{\"message\":\"Switching to automatic running mode.\"}}},\"STOPPING\":{\"set-auto:machine_idle\":{\"status\":\"IDLE\",\"data\":{\"message\":\"Machine is now idle.\"}}}}}",
+        "sendInitialState": true,
+        "sendStateWithoutChange": true,
+        "showTransitionErrors": true,
+        "x": 760,
+        "y": 500,
+        "wires": [
+            [
+                "43d28e8d923c2fcb"
+            ]
+        ]
+    },
+    {
+        "id": "259e145eab456ca3",
+        "type": "comment",
+        "z": "a6aea6158ffe49a3",
+        "g": "555c34874e8b07a9",
+        "name": "Finite State Machine",
+        "info": "",
+        "x": 700,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "a14b3191aa0a02fb",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6aea6158ffe49a3",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Executing",
+        "name": "ItemState Executing",
+        "topic": "",
+        "showErrors": true,
+        "x": 700,
+        "y": 1540,
+        "wires": [
+            [
+                "6bb0aa45d449fe3f"
+            ]
+        ]
+    },
+    {
+        "id": "2ecb2d170ef643e1",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6aea6158ffe49a3",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "Processing",
+        "name": "OperationMode Processing",
+        "topic": "",
+        "showErrors": true,
+        "x": 720,
+        "y": 1600,
+        "wires": [
+            [
+                "6bb0aa45d449fe3f"
+            ]
+        ]
+    },
+    {
+        "id": "0fa2ed368f26000f",
+        "type": "comment",
+        "z": "a6aea6158ffe49a3",
+        "name": "DEMO MACHINE",
+        "info": "",
+        "x": 180,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "7bb7732769ab2843",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6aea6158ffe49a3",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Out of Service",
+        "name": "ItemState Out of Service",
+        "topic": "",
+        "showErrors": true,
+        "x": 710,
+        "y": 1660,
+        "wires": [
+            [
+                "6bb0aa45d449fe3f"
+            ]
+        ]
+    },
+    {
+        "id": "d150f4d72e0f823f",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6aea6158ffe49a3",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"BW1\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "Not Executing",
+        "name": "ItemState Not Executing",
+        "topic": "",
+        "showErrors": true,
+        "x": 710,
+        "y": 1720,
+        "wires": [
+            [
+                "6bb0aa45d449fe3f"
+            ]
+        ]
+    },
+    {
+        "id": "5d5a0b3d9f438590",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "group": "c34be0c21cfab46c",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Machine:Start of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "StartofProduction",
+        "payloadType": "str",
+        "topic": "StartofProduction",
+        "topicType": "str",
+        "x": 380,
+        "y": 1020,
+        "wires": [
+            [
+                "8b09d47fac0a3b18"
+            ]
+        ]
+    },
+    {
+        "id": "27db2080fda2aed3",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "group": "c34be0c21cfab46c",
+        "order": 14,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Machine:Stop of Production",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "StopMachine",
+        "payloadType": "str",
+        "topic": "StopMachine",
+        "topicType": "str",
+        "x": 380,
+        "y": 1180,
+        "wires": [
+            [
+                "8b09d47fac0a3b18"
+            ]
+        ]
+    },
+    {
+        "id": "ea4ec8925bfb97af",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "group": "c34be0c21cfab46c",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Machine:Alarm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Alarm",
+        "payloadType": "str",
+        "topic": "Alarm",
+        "topicType": "str",
+        "x": 340,
+        "y": 1080,
+        "wires": [
+            [
+                "8b09d47fac0a3b18"
+            ]
+        ]
+    },
+    {
+        "id": "6bb0aa45d449fe3f",
+        "type": "debug",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "d85ab45b0322958a",
+        "type": "inject",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 920,
+        "wires": [
+            [
+                "a06343b8a4b54b64"
+            ]
+        ]
+    },
+    {
+        "id": "8b09d47fac0a3b18",
+        "type": "finite-state-machine",
+        "z": "a6aea6158ffe49a3",
+        "name": "FSM for MachineryItemState",
+        "fsmDefinition": "{\"state\":{\"status\":\"OFF\",\"data\":{\"MachineryItemState\":\"Unknown\",\"MachineryOperationMode\":\"Unknown\"}},\"transitions\":{\"OFF\":{\"PowerOn\":{\"status\":\"ON\",\"data\":{\"MachineryItemState\":\"Unknown\",\"MachineryOperationMode\":\"Unknown\"}}},\"ON\":{\"SetJobData\":{\"status\":\"SETUP\",\"data\":{\"MachineryItemState\":\"NotExecuting\",\"MachineryOperationMode\":\"Setup\"}},\"PowerOff\":{\"status\":\"OFF\",\"data\":{\"MachineryItemState\":\"Unknown\",\"MachineryOperationMode\":\"Unknown\"}}},\"SETUP\":{\"StartofProduction\":{\"status\":\"RUNNING\",\"data\":{\"MachineryItemState\":\"Executing\",\"MachineryOperationMode\":\"Processing\"}},\"Alarm\":{\"status\":\"ALARM\",\"data\":{\"MachineryItemState\":\"Out of Service\",\"MachineryOperationMode\":\"Not Executing\"}}},\"RUNNING\":{\"Alarm\":{\"status\":\"ALARM\",\"data\":{\"MachineryItemState\":\"Out of Service\",\"MachineryOperationMode\":\"Not Executing\"}},\"StopMachine\":{\"status\":\"STOPPED\",\"data\":{\"MachineryItemState\":\"Out of Service\",\"MachineryOperationMode\":\"Setup\"}}},\"ALARM\":{\"Reset\":{\"status\":\"SETUP\",\"data\":{\"MachineryItemState\":\"Unknown\",\"MachineryOperationMode\":\"Unknown\"}}},\"STOPPED\":{\"Reset\":{\"status\":\"ON\",\"data\":{\"MachineryItemState\":\"Unknown\",\"MachineryOperationMode\":\"Unknown\"}}}}}",
+        "sendInitialState": true,
+        "sendStateWithoutChange": true,
+        "showTransitionErrors": true,
+        "x": 720,
+        "y": 880,
+        "wires": [
+            [
+                "c257ea489e7f3271",
+                "4791b8d6c38708ef"
+            ]
+        ]
+    },
+    {
+        "id": "a06343b8a4b54b64",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "group": "c34be0c21cfab46c",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "passthru": true,
+        "label": "Machine:Power On",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-power-off",
+        "payload": "PowerOn",
+        "payloadType": "str",
+        "topic": "PowerOn",
+        "topicType": "str",
+        "x": 350,
+        "y": 920,
+        "wires": [
+            [
+                "8b09d47fac0a3b18"
+            ]
+        ]
+    },
+    {
+        "id": "59a2f759b7b809ba",
+        "type": "inject",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 1020,
+        "wires": [
+            [
+                "5d5a0b3d9f438590"
+            ]
+        ]
+    },
+    {
+        "id": "65d63a8b9efb282a",
+        "type": "inject",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 1080,
+        "wires": [
+            [
+                "ea4ec8925bfb97af"
+            ]
+        ]
+    },
+    {
+        "id": "127435ae0bfd5448",
+        "type": "inject",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 1180,
+        "wires": [
+            [
+                "27db2080fda2aed3"
+            ]
+        ]
+    },
+    {
+        "id": "6e6a889a0e60f124",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "group": "c34be0c21cfab46c",
+        "order": 2,
+        "width": 5,
+        "height": 2,
+        "passthru": true,
+        "label": "Machine:Power Off",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-power-off",
+        "payload": "PowerOff",
+        "payloadType": "str",
+        "topic": "PowerOff",
+        "topicType": "str",
+        "x": 350,
+        "y": 880,
+        "wires": [
+            [
+                "8b09d47fac0a3b18"
+            ]
+        ]
+    },
+    {
+        "id": "6b300cfb8fa9341a",
+        "type": "inject",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 880,
+        "wires": [
+            [
+                "6e6a889a0e60f124"
+            ]
+        ]
+    },
+    {
+        "id": "b75a1a54850f4af5",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "group": "c34be0c21cfab46c",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "MES:Set Job Data",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "SetJobData",
+        "payloadType": "str",
+        "topic": "SetJobData",
+        "topicType": "str",
+        "x": 350,
+        "y": 980,
+        "wires": [
+            [
+                "8b09d47fac0a3b18"
+            ]
+        ]
+    },
+    {
+        "id": "1cf7ad0574410dd0",
+        "type": "inject",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 980,
+        "wires": [
+            [
+                "b75a1a54850f4af5"
+            ]
+        ]
+    },
+    {
+        "id": "7af25f3d61a0731b",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "group": "c34be0c21cfab46c",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Machine:Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Reset",
+        "payloadType": "str",
+        "topic": "Reset",
+        "topicType": "str",
+        "x": 340,
+        "y": 1220,
+        "wires": [
+            [
+                "8b09d47fac0a3b18"
+            ]
+        ]
+    },
+    {
+        "id": "6f9a0db58547090a",
+        "type": "inject",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 1220,
+        "wires": [
+            [
+                "7af25f3d61a0731b"
+            ]
+        ]
+    },
+    {
+        "id": "dd6bf353c5e7bc6a",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6aea6158ffe49a3",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"DemoMachine\".\"CTBase\".\"Machine\".\"MachineryOperationMode\"",
+        "datatype": "String",
+        "value": "",
+        "name": "MachineryOperationMode",
+        "topic": "",
+        "showErrors": true,
+        "x": 1330,
+        "y": 1100,
+        "wires": [
+            [
+                "d7e997bd2e047052"
+            ]
+        ]
+    },
+    {
+        "id": "1f0f5ea3a79463f1",
+        "type": "OPCUA-IIoT-Node",
+        "z": "a6aea6158ffe49a3",
+        "injectType": "write",
+        "nodeId": "ns=1;s=\"Root\".\"Objects\".\"DemoMachine\".\"CTBase\".\"Machine\".\"MachineryItemState\"",
+        "datatype": "String",
+        "value": "",
+        "name": "MachineryItemState",
+        "topic": "",
+        "showErrors": true,
+        "x": 1320,
+        "y": 1040,
+        "wires": [
+            [
+                "d7e997bd2e047052"
+            ]
+        ]
+    },
+    {
+        "id": "d7e997bd2e047052",
+        "type": "debug",
+        "z": "a6aea6158ffe49a3",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1610,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "c257ea489e7f3271",
+        "type": "change",
+        "z": "a6aea6158ffe49a3",
+        "name": "move MachineryItemState",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.data.MachineryItemState",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 1040,
+        "wires": [
+            [
+                "1f0f5ea3a79463f1"
+            ]
+        ]
+    },
+    {
+        "id": "4791b8d6c38708ef",
+        "type": "change",
+        "z": "a6aea6158ffe49a3",
+        "name": "move MachineryOperationMode",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.data.MachineryOperationMode",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1050,
+        "y": 1100,
+        "wires": [
+            [
+                "dd6bf353c5e7bc6a"
+            ]
+        ]
+    },
+    {
+        "id": "1fc5d7aa7f9ecfd5",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "g": "e2cec32a23a40efa",
+        "name": "",
+        "group": "c34be0c21cfab46c",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "passthru": true,
+        "label": "Power On",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-power-off",
+        "payload": "set:power_on",
+        "payloadType": "str",
+        "topic": "set:power_on",
+        "topicType": "str",
+        "x": 160,
+        "y": 400,
+        "wires": [
+            [
+                "a0aeec387b48e304",
+                "6ca3cc9284d533bd"
+            ]
+        ]
+    },
+    {
+        "id": "3deb0fb49531cae3",
+        "type": "ui_button",
+        "z": "a6aea6158ffe49a3",
+        "g": "e2cec32a23a40efa",
+        "name": "",
+        "group": "c34be0c21cfab46c",
+        "order": 2,
+        "width": 5,
+        "height": 2,
+        "passthru": false,
+        "label": "Power Off",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-power-off",
+        "payload": "set:power_off",
+        "payloadType": "str",
+        "topic": "set:power_off",
+        "topicType": "str",
+        "x": 160,
+        "y": 360,
+        "wires": [
+            [
+                "6ca3cc9284d533bd"
+            ]
+        ]
     }
 ]
